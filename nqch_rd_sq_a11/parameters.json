@@ -18,7 +18,7 @@
                 "MZ": {
                     "duration": 5000,
                     "amplitude": 1,
-                    "frequency": 5549030612.24,
+                    "frequency": 5549010204.08,
                     "shape": "Rectangular()",
                     "type": "ro",
                     "relative_start": 0,
@@ -27,7 +27,7 @@
                 "RX": {
                     "duration": 45,
                     "amplitude": 0.4,
-                    "frequency": 3794397231.0085306,
+                    "frequency": 3794476656.4044333,
                     "shape": "Drag(7, 0)",
                     "type": "qd",
                     "relative_start": 0,
@@ -41,8 +41,8 @@
     "characterization": {
         "single_qubit": {
             "0": {
-                "state0_voltage": 69743.13979752056,
-                "state1_voltage": 58625.021666811015
+                "state0_voltage": 69488.5217281144,
+                "state1_voltage": 60230.31993681057
             }
         }
     }

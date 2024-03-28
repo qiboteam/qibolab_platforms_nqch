@@ -11,25 +11,19 @@ from qibolab.serialize import (
     load_settings,
 )
 
-RUNCARD = pathlib.Path(__file__).parent / "icarusq_iqm_5q.yml"
+FOLDER = pathlib.Path(__file__).parent
 
 # XY port to DAC channel mapping
 cmap_xyline = {
     # RFSoC DAC channel mapping
         "x1": 1,
-        # tc[from][to]
-        "tc31": 7,
-        "x2": 2,
-        "tc32": 7,
-        "x3": 4,
-        "tc13": 8,
-        "tc23": 9,
-        "tc43": 10,
-        "tc53": 11,
-        "x4": 5,
-        "tc34": 7,
-        "x5": 6,
-        "tc35": 7,
+        "x2": 4,
+        "x3": 6,
+        "x4": 9,
+        "x5": 0,
+        "x6": 7,
+        "x7": 8,
+        "x8": 10
 }
 
 # Qubit mapping to readout port, XY port
@@ -39,26 +33,22 @@ cmap_qubits = {
     2: ["r1", "x3"],
     3: ["r1", "x4"],
     4: ["r1", "x5"],
+    5: ["r1", "x6"],
+    6: ["r1", "x7"],
+    7: ["r1", "x8"]
 }
 # RO port to DAC, ADC channel pair mapping
-cmap_roline = {"r1": (0, 6)}
+cmap_roline = {"r1": (2, 6), "r2": (5, 2)}
 
-NAME = "icarusq_iqm_5q"
+NAME = "icarusq_rd_sq_a11"
 ADDRESS = "192.168.0.132"
 
-def create(runcard=RUNCARD):
-    controller = RFSOC_RO("board2", ADDRESS)
+def create():
+    controller = RFSOC_RO("board2", ADDRESS,
+                           delay_samples_offset_dac=0,
+                           delay_samples_offset_adc=11)
     attenuator = MCAttenuator("ro_att", "192.168.0.10:100")
-
-    controller.setup(
-        dac_sampling_rate=5898.24,
-        adc_sampling_rate=1966.08,
-        delay_samples_offset_dac=0,
-        delay_samples_offset_adc=11,
-        adcs_to_read=[9]
-    )
-    attenuator.setup(9)
-    #awg.setup()
+    attenuator.attenuation = 20
 
     channels: Dict[str, Channel] = {}
 
@@ -88,7 +78,7 @@ def create(runcard=RUNCARD):
     instruments = {controller.name: controller}
     instruments.update({attenuator.name: attenuator})
 
-    runcard = load_runcard(runcard)
+    runcard = load_runcard(FOLDER)
     qubits, couplers, pairs = load_qubits(runcard)
     settings = load_settings(runcard)
     instruments = load_instrument_settings(runcard, instruments)

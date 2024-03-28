@@ -1,0 +1,49 @@
+{
+    "nqubits": 1,
+    "settings": {
+        "nshots": 1024,
+        "relaxation_time": 200000
+    },
+    "qubits": [
+        0
+    ],
+    "topology": [
+    ],
+    "instruments": {
+    },
+
+    "native_gates": {
+        "single_qubit": {
+            "0": {
+                "MZ": {
+                    "duration": 5000,
+                    "amplitude": 1,
+                    "frequency": 5549030612.24,
+                    "shape": "Rectangular()",
+                    "type": "ro",
+                    "relative_start": 0,
+                    "phase": 0
+                },
+                "RX": {
+                    "duration": 45,
+                    "amplitude": 0.4,
+                    "frequency": 3794397231.0085306,
+                    "shape": "Drag(7, 0)",
+                    "type": "qd",
+                    "relative_start": 0,
+                    "phase": 0
+                }
+            }
+        },
+        "two_qubit": {
+        }
+    },
+    "characterization": {
+        "single_qubit": {
+            "0": {
+                "state0_voltage": 69743.13979752056,
+                "state1_voltage": 58625.021666811015
+            }
+        }
+    }
+}

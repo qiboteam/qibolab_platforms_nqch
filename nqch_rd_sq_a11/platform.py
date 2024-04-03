@@ -29,6 +29,7 @@ cmap_xyline = {
 # Qubit mapping to readout port, XY port
 cmap_qubits = {
     0: ["r1", "x6"],
+    1: ["r1", "x7"]
 }
 # RO port to DAC, ADC channel pair mapping
 cmap_roline = {"r1": (2, 6), "r2": (5, 2)}
@@ -41,7 +42,7 @@ def create():
                            delay_samples_offset_dac=0,
                            delay_samples_offset_adc=11)
     attenuator = MCAttenuator("ro_att", "192.168.0.10:100")
-    attenuator.attenuation = 24
+    attenuator.attenuation = 20
 
     channels: Dict[str, Channel] = {}
 

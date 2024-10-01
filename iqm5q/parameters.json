@@ -1,0 +1,254 @@
+{
+    "settings": {
+        "nshots": 1024,
+        "relaxation_time": 70000
+    },
+    "configs": {
+        "0/drive": {
+            "kind": "iq",
+            "frequency": 4398396000
+        },
+        "0/probe": {
+            "kind": "iq",
+            "frequency": 5300000000
+        },
+        "0/acquisition": {
+            "kind": "acquisition",
+            "delay": 0,
+            "smearing": 0,
+            "threshold": 0,
+            "iq_angle": 0
+        },
+        "1/drive": {
+            "kind": "iq",
+            "frequency": 4281583332.2152815
+        },
+        "1/probe": {
+            "kind": "iq",
+            "frequency": 5126900000
+        },
+        "1/acquisition": {
+            "kind": "acquisition",
+            "delay": 0,
+            "smearing": 0,
+            "threshold": 0,
+            "iq_angle": 0
+        },
+        "2/drive": {
+            "kind": "iq",
+            "frequency": 4587762729.41949
+        },
+        "2/probe": {
+            "kind": "iq",
+            "frequency": 5807200000
+        },
+        "2/acquisition": {
+            "kind": "acquisition",
+            "delay": 0,
+            "smearing": 0,
+            "threshold": 0,
+            "iq_angle": 0
+        },
+        "3/drive": {
+            "kind": "iq",
+            "frequency": 0
+        },
+        "3/probe": {
+            "kind": "iq",
+            "frequency": 5645200000
+        },
+        "3/acquisition": {
+            "kind": "acquisition",
+            "delay": 0,
+            "smearing": 0,
+            "threshold": 0,
+            "iq_angle": 0
+        },
+        "4/drive": {
+            "kind": "iq",
+            "frequency": 4607793918.636145
+        },
+        "4/probe": {
+            "kind": "iq",
+            "frequency": 5477600000
+        },
+        "4/acquisition": {
+            "kind": "acquisition",
+            "delay": 0,
+            "smearing": 0,
+            "threshold": 0,
+            "iq_angle": 0
+        }
+    },
+    "native_gates": {
+        "single_qubit": {
+            "0": {
+                "RX": [
+                    [
+                        "0/drive",
+                        {
+                            "duration": 40,
+                            "amplitude": 0.5,
+                            "envelope": { "kind": "gaussian", "rel_sigma": 7.0 },
+                            "kind": "pulse"
+                        }
+                    ]
+                ],
+                "MZ": [
+                    [
+                        "0/acquisition",
+                        {
+                            "kind": "readout",
+                            "acquisition": {
+                                "kind": "acquisition",
+                                "duration": 2000.0
+                            },
+                            "probe": {
+                                "kind": "pulse",
+                                "duration": 2000.0,
+                                "amplitude": 0.2,
+                                "envelope": {
+                                    "kind": "rectangular"
+                                }
+                            }
+                        }
+                    ]
+                ]
+            },
+            "1": {
+                "RX": [
+                    [
+                        "1/drive",
+                        {
+                            "duration": 40,
+                            "amplitude": 0.5,
+                            "envelope": { "kind": "gaussian", "rel_sigma": 7.0 },
+                            "kind": "pulse"
+                        }
+                    ]
+                ],
+                "MZ": [
+                    [
+                        "1/acquisition",
+                        {
+                            "kind": "readout",
+                            "acquisition": {
+                                "kind": "acquisition",
+                                "duration": 2000.0
+                            },
+                            "probe": {
+                                "kind": "pulse",
+                                "duration": 2000.0,
+                                "amplitude": 0.2,
+                                "envelope": {
+                                    "kind": "rectangular"
+                                }
+                            }
+                        }
+                    ]
+                ]
+            },
+            "2": {
+                "RX": [
+                    [
+                        "2/drive",
+                        {
+                            "duration": 40,
+                            "amplitude": 0.05,
+                            "envelope": { "kind": "gaussian", "rel_sigma": 7.0 },
+                            "kind": "pulse"
+                        }
+                    ]
+                ],
+                "MZ": [
+                    [
+                        "2/acquisition",
+                        {
+                            "kind": "readout",
+                            "acquisition": {
+                                "kind": "acquisition",
+                                "duration": 2000.0
+                            },
+                            "probe": {
+                                "kind": "pulse",
+                                "duration": 2000.0,
+                                "amplitude": 0.2,
+                                "envelope": {
+                                    "kind": "rectangular"
+                                }
+                            }
+                        }
+                    ]
+                ]
+            },
+            "3": {
+                "RX": [
+                    [
+                        "3/drive",
+                        {
+                            "duration": 40,
+                            "amplitude": 0.5,
+                            "envelope": { "kind": "gaussian", "rel_sigma": 7.0 },
+                            "kind": "pulse"
+                        }
+                    ]
+                ],
+                "MZ": [
+                    [
+                        "3/acquisition",
+                        {
+                            "kind": "readout",
+                            "acquisition": {
+                                "kind": "acquisition",
+                                "duration": 2000.0
+                            },
+                            "probe": {
+                                "kind": "pulse",
+                                "duration": 2000.0,
+                                "amplitude": 0.2,
+                                "envelope": {
+                                    "kind": "rectangular"
+                                }
+                            }
+                        }
+                    ]
+                ]
+            },
+            "4": {
+                "RX": [
+                    [
+                        "4/drive",
+                        {
+                            "duration": 40,
+                            "amplitude": 0.5,
+                            "envelope": { "kind": "gaussian", "rel_sigma": 7.0 },
+                            "kind": "pulse"
+                        }
+                    ]
+                ],
+                "MZ": [
+                    [
+                        "4/acquisition",
+                        {
+                            "kind": "readout",
+                            "acquisition": {
+                                "kind": "acquisition",
+                                "duration": 2000.0
+                            },
+                            "probe": {
+                                "kind": "pulse",
+                                "duration": 2000.0,
+                                "amplitude": 0.2,
+                                "envelope": {
+                                    "kind": "rectangular"
+                                }
+                            }
+                        }
+                    ]
+                ]
+            }
+        },
+        
+        "two_qubit": {}
+    }
+}

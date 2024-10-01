@@ -65,6 +65,9 @@ def create():
         qcs_channel_map=channel_map,
         virtual_channel_map=virtual_channel_map
     )
+    instruments = {
+        "qcs": controller
+    }
     return Platform.load(
-        path=FOLDER, instruments=[controller], qubits=qubits, couplers=couplers, name=NAME
+        path=FOLDER, instruments=instruments, qubits=qubits, couplers=couplers, name=NAME
     )

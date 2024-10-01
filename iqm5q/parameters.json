@@ -78,6 +78,12 @@
             "smearing": 0,
             "threshold": 0,
             "iq_angle": 0
+        },
+        "qcs/bounds": {
+            "kind": "bounds",
+            "waveforms": 1,
+            "readout": 1,
+            "instructions": 1
         }
     },
     "native_gates": {

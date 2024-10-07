@@ -5,12 +5,13 @@ from qibolab._core.instruments.qcs import KeysightQCS
 from qibolab._core.qubits import Qubit
 from qibolab._core.components import IqChannel, DcChannel, AcquisitionChannel
 from qibolab._core.platform import Platform
+from qibolab._core.serialize import replace
 
 ip_addr = "192.168.0.80"
 FOLDER = pathlib.Path(__file__).parent
 NUM_QUBITS = 5
 NUM_COUPLERS = 4
-NAME = "iqm5q_keysight"
+NAME = "iqm5q"
 
 def create():
     # Setup QCS channel mapping and LO configuration
@@ -59,6 +60,13 @@ def create():
     channels[qubit.flux] = DcChannel(device="M5301AWG", path="")
     virtual_channel_map[qubit.flux] = flux_awg_chan
 
+    # CR SETUP
+    crtl_qubit = 3
+    target_qubit = 2
+    cr_chan_id = "cr_test_channel"
+    channels[cr_chan_id] = channels[qubits[crtl_qubit].drive]
+    virtual_channel_map[cr_chan_id] = virtual_channel_map[qubits[crtl_qubit].drive]
+
     controller = KeysightQCS(
         address=ip_addr,
         channels=channels,
@@ -68,6 +76,9 @@ def create():
     instruments = {
         "qcs": controller
     }
-    return Platform.load(
+    platform = Platform.load(
         path=FOLDER, instruments=instruments, qubits=qubits, couplers=couplers, name=NAME
     )
+    platform.parameters.configs[cr_chan_id] = replace(platform.parameters.configs[qubits[target_qubit].drive])
+   
+    return platform

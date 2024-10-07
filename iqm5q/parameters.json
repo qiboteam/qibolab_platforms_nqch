@@ -6,11 +6,11 @@
     "configs": {
         "0/drive": {
             "kind": "iq",
-            "frequency": 4324000000.0
+            "frequency": 4384000000.0
         },
         "0/probe": {
             "kind": "iq",
-            "frequency": 5305049594.434872
+            "frequency": 5305083569.950637
         },
         "0/acquisition": {
             "kind": "acquisition",
@@ -26,7 +26,7 @@
         },
         "1/probe": {
             "kind": "iq",
-            "frequency": 5129380565.17002
+            "frequency": 5121121648.178934
         },
         "1/acquisition": {
             "kind": "acquisition",
@@ -38,11 +38,11 @@
         },
         "2/drive": {
             "kind": "iq",
-            "frequency": 4570312979.5
+            "frequency": 4502000000.0
         },
         "2/probe": {
             "kind": "iq",
-            "frequency": 5825769272.059092
+            "frequency": 5806861524.1251335
         },
         "2/acquisition": {
             "kind": "acquisition",
@@ -54,11 +54,11 @@
         },
         "3/drive": {
             "kind": "iq",
-            "frequency": 4436000000.0
+            "frequency": 4412000000.0
         },
         "3/probe": {
             "kind": "iq",
-            "frequency": 5637807371.96198
+            "frequency": 5641140438.417867
         },
         "3/acquisition": {
             "kind": "acquisition",
@@ -70,11 +70,11 @@
         },
         "4/drive": {
             "kind": "iq",
-            "frequency": 4546000000.0
+            "frequency": 4622000000.0
         },
         "4/probe": {
             "kind": "iq",
-            "frequency": 5479364659.302705
+            "frequency": 5481496368.644555
         },
         "4/acquisition": {
             "kind": "acquisition",
@@ -89,6 +89,10 @@
             "waveforms": 1.0,
             "readout": 1,
             "instructions": 1
+        },
+        "cr_test_channel": {
+            "kind": "iq",
+            "frequency": 4502000000.0
         }
     },
     "native_gates": {
@@ -99,7 +103,7 @@
                         "0/drive",
                         {
                             "kind": "pulse",
-                            "duration": 46.0,
+                            "duration": 46.101327661099944,
                             "amplitude": 0.47710888045603744,
                             "envelope": {
                                 "kind": "gaussian",
@@ -179,8 +183,8 @@
                         "2/drive",
                         {
                             "kind": "pulse",
-                            "duration": 46.04118956669873,
-                            "amplitude": 0.07,
+                            "duration": 259.81488434318504,
+                            "amplitude": 0.6,
                             "envelope": {
                                 "kind": "gaussian",
                                 "rel_sigma": 2.0
@@ -219,8 +223,8 @@
                         "3/drive",
                         {
                             "kind": "pulse",
-                            "duration": 45.675582018846775,
-                            "amplitude": 0.6,
+                            "duration": 312.5099224780869,
+                            "amplitude": 0.07,
                             "envelope": {
                                 "kind": "gaussian",
                                 "rel_sigma": 2.0
@@ -259,7 +263,7 @@
                         "4/drive",
                         {
                             "kind": "pulse",
-                            "duration": 87.0,
+                            "duration": 88.65825109986164,
                             "amplitude": 0.4871287910889199,
                             "envelope": {
                                 "kind": "gaussian",

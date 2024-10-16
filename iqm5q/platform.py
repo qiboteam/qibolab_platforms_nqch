@@ -71,7 +71,11 @@ def create():
         address=ip_addr,
         channels=channels,
         qcs_channel_map=channel_map,
-        virtual_channel_map=virtual_channel_map
+        virtual_channel_map=virtual_channel_map,
+        classifier_map={
+            ro_dig_chan[0]: qcs.MinimumDistanceClassifier([-2.48223280e-04 + 1j * 5.88898035e-04, -0.00064092 +1j * 0.00072122]),
+            ro_dig_chan[4]: qcs.MinimumDistanceClassifier([-7.79902168e-04 + 1j * 8.98309186e-04, -1.71446745e-04 + 1j * 6.77887585e-05])
+        }
     )
     instruments = {
         "qcs": controller

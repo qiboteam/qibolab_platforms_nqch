@@ -6,27 +6,27 @@
     "configs": {
         "0/drive": {
             "kind": "iq",
-            "frequency": 4384000000.0
+            "frequency": 4251307996.750108
         },
         "0/probe": {
             "kind": "iq",
-            "frequency": 5305083569.950637
+            "frequency": 5296988373.986935
         },
         "0/acquisition": {
             "kind": "acquisition",
             "delay": 0.0,
             "smearing": 0.0,
-            "threshold": 0.0,
-            "iq_angle": 0.0,
+            "threshold": 0.0002859266926578682,
+            "iq_angle": -1.9750635549913478,
             "kernel": null
         },
         "1/drive": {
             "kind": "iq",
-            "frequency": 4370000000.0
+            "frequency": 4190452223.780213
         },
         "1/probe": {
             "kind": "iq",
-            "frequency": 5121121648.178934
+            "frequency": 5120310344.21199
         },
         "1/acquisition": {
             "kind": "acquisition",
@@ -38,11 +38,11 @@
         },
         "2/drive": {
             "kind": "iq",
-            "frequency": 4502000000.0
+            "frequency": 4486000000.0
         },
         "2/probe": {
             "kind": "iq",
-            "frequency": 5806861524.1251335
+            "frequency": 5810167789.64958
         },
         "2/acquisition": {
             "kind": "acquisition",
@@ -54,11 +54,11 @@
         },
         "3/drive": {
             "kind": "iq",
-            "frequency": 4412000000.0
+            "frequency": 4478000000.0
         },
         "3/probe": {
             "kind": "iq",
-            "frequency": 5641140438.417867
+            "frequency": 5651451476.68602
         },
         "3/acquisition": {
             "kind": "acquisition",
@@ -70,18 +70,18 @@
         },
         "4/drive": {
             "kind": "iq",
-            "frequency": 4622000000.0
+            "frequency": 4584000000.0
         },
         "4/probe": {
             "kind": "iq",
-            "frequency": 5481496368.644555
+            "frequency": 5464023693.521766
         },
         "4/acquisition": {
             "kind": "acquisition",
             "delay": 0.0,
             "smearing": 0.0,
-            "threshold": 0.0,
-            "iq_angle": 0.0,
+            "threshold": 0.00044128494146160855,
+            "iq_angle": -2.1759547061142044,
             "kernel": null
         },
         "qcs/bounds": {
@@ -92,7 +92,7 @@
         },
         "cr_test_channel": {
             "kind": "iq",
-            "frequency": 4502000000.0
+            "frequency": 4486000000.0
         }
     },
     "native_gates": {
@@ -103,8 +103,8 @@
                         "0/drive",
                         {
                             "kind": "pulse",
-                            "duration": 46.101327661099944,
-                            "amplitude": 0.47710888045603744,
+                            "duration": 32.901451349906694,
+                            "amplitude": 0.9,
                             "envelope": {
                                 "kind": "gaussian",
                                 "rel_sigma": 2.0
@@ -143,8 +143,8 @@
                         "1/drive",
                         {
                             "kind": "pulse",
-                            "duration": 64.0,
-                            "amplitude": 0.41955808820861057,
+                            "duration": 36.796793762510745,
+                            "amplitude": 0.9,
                             "envelope": {
                                 "kind": "gaussian",
                                 "rel_sigma": 2.0
@@ -183,8 +183,8 @@
                         "2/drive",
                         {
                             "kind": "pulse",
-                            "duration": 259.81488434318504,
-                            "amplitude": 0.6,
+                            "duration": 175.52861055121895,
+                            "amplitude": 0.9,
                             "envelope": {
                                 "kind": "gaussian",
                                 "rel_sigma": 2.0
@@ -223,8 +223,8 @@
                         "3/drive",
                         {
                             "kind": "pulse",
-                            "duration": 312.5099224780869,
-                            "amplitude": 0.07,
+                            "duration": 34.05290869440697,
+                            "amplitude": 0.9,
                             "envelope": {
                                 "kind": "gaussian",
                                 "rel_sigma": 2.0
@@ -263,8 +263,8 @@
                         "4/drive",
                         {
                             "kind": "pulse",
-                            "duration": 88.65825109986164,
-                            "amplitude": 0.4871287910889199,
+                            "duration": 41.64259109553561,
+                            "amplitude": 0.9,
                             "envelope": {
                                 "kind": "gaussian",
                                 "rel_sigma": 2.0

@@ -13,12 +13,13 @@
             "frequency": 5296988373.986935
         },
         "0/acquisition": {
-            "kind": "acquisition",
+            "kind": "qcs-acquisition",
             "delay": 0.0,
             "smearing": 0.0,
             "threshold": 0.0002859266926578682,
             "iq_angle": -1.9750635549913478,
-            "kernel": null
+            "kernel": null,
+            "state_iq_values": null
         },
         "1/drive": {
             "kind": "iq",
@@ -29,12 +30,13 @@
             "frequency": 5120310344.21199
         },
         "1/acquisition": {
-            "kind": "acquisition",
+            "kind": "qcs-acquisition",
             "delay": 0.0,
             "smearing": 0.0,
             "threshold": 0.0,
             "iq_angle": 0.0,
-            "kernel": null
+            "kernel": null,
+            "state_iq_values": null
         },
         "2/drive": {
             "kind": "iq",
@@ -45,12 +47,13 @@
             "frequency": 5810167789.64958
         },
         "2/acquisition": {
-            "kind": "acquisition",
+            "kind": "qcs-acquisition",
             "delay": 0.0,
             "smearing": 0.0,
             "threshold": 0.0,
             "iq_angle": 0.0,
-            "kernel": null
+            "kernel": null,
+            "state_iq_values": null
         },
         "3/drive": {
             "kind": "iq",
@@ -61,12 +64,13 @@
             "frequency": 5651451476.68602
         },
         "3/acquisition": {
-            "kind": "acquisition",
+            "kind": "qcs-acquisition",
             "delay": 0.0,
             "smearing": 0.0,
             "threshold": 0.0,
             "iq_angle": 0.0,
-            "kernel": null
+            "kernel": null,
+            "state_iq_values": null
         },
         "4/drive": {
             "kind": "iq",
@@ -77,12 +81,13 @@
             "frequency": 5464023693.521766
         },
         "4/acquisition": {
-            "kind": "acquisition",
+            "kind": "qcs-acquisition",
             "delay": 0.0,
             "smearing": 0.0,
             "threshold": 0.00044128494146160855,
             "iq_angle": -2.1759547061142044,
-            "kernel": null
+            "kernel": null,
+            "state_iq_values": null
         },
         "qcs/bounds": {
             "kind": "bounds",

@@ -1,11 +1,14 @@
 import keysight.qcs as qcs
 import pathlib
 
-from qibolab._core.instruments.qcs import KeysightQCS
+from qibolab import ConfigKinds
+from qibolab.instruments.keysight_qcs import KeysightQCS, QcsAcquisitionConfig
 from qibolab._core.qubits import Qubit
 from qibolab._core.components import IqChannel, DcChannel, AcquisitionChannel
 from qibolab._core.platform import Platform
 from qibolab._core.serialize import replace
+
+ConfigKinds.extend([QcsAcquisitionConfig])
 
 ip_addr = "192.168.0.80"
 FOLDER = pathlib.Path(__file__).parent
@@ -71,11 +74,7 @@ def create():
         address=ip_addr,
         channels=channels,
         qcs_channel_map=channel_map,
-        virtual_channel_map=virtual_channel_map,
-        classifier_map={
-            ro_dig_chan[0]: qcs.MinimumDistanceClassifier([-2.48223280e-04 + 1j * 5.88898035e-04, -0.00064092 +1j * 0.00072122]),
-            ro_dig_chan[4]: qcs.MinimumDistanceClassifier([-7.79902168e-04 + 1j * 8.98309186e-04, -1.71446745e-04 + 1j * 6.77887585e-05])
-        }
+        virtual_channel_map=virtual_channel_map
     )
     instruments = {
         "qcs": controller

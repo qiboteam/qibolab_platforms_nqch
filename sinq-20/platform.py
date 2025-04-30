@@ -12,22 +12,46 @@ ConfigKinds.extend([QcsAcquisitionConfig])
 ip_addr = "192.168.0.80"
 FOLDER = pathlib.Path(__file__).parent
 NUM_QUBITS = 20
-NAME = "iqm20q"
+NAME = "sinq-20"
 
-# temp workaround
-qubits_avail = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 17]
+fastflux_qubits = [2, 4, 6, 8, 10, 12, 14, 16, 19]
 
-connectivity = {
-    0: (7, 12),
-    1: (2, 7),
-    2: (2, 3),
-    3: (12, 13),
-    6: (3, 8)
-}
+connectivity = [
+    (0, 1),
+    (0, 3), 
+    (1, 4), 
+    (2, 3), 
+    (2, 7), 
+    (3, 4), 
+    (3, 8), 
+    (4, 5), 
+    (4, 9), 
+    (5, 6), 
+    (5, 10), 
+    (6, 11), 
+    (7, 8), 
+    (7, 12), 
+    (8, 9), 
+    (8, 13), 
+    (9, 10), 
+    (9, 14), 
+    (10, 11),
+    (10, 15), 
+    (11, 16), 
+    (12, 13), 
+    (13, 14), 
+    (13, 17), 
+    (14, 15), 
+    (14, 18), 
+    (15, 16), 
+    (15, 19), 
+    (17, 18), 
+    (18, 19)
+]
 
 def create():
     channel_map: qcs.ChannelMapper = qcs.load(FOLDER / "chan_map.qcs")
-    xy_awg_chan, ro_awg_chan, ro_dig_chan, fastflux_chan = channel_map.channels
+    xy_awg_chan, ro_awg_chan, ro_dig_chan, qb_flux_chan, tc_flux_chan = channel_map.channels
 
     qubits = {
         idx: Qubit(
@@ -41,10 +65,7 @@ def create():
     channels = {}
     virtual_channel_map = {}
 
-    k = 0
     for idx, qubit in qubits.items():
-        if idx not in qubits_avail:
-            continue
 
         virtual_channel_map[qubit.drive] = xy_awg_chan[idx]
         channels[qubit.drive] = IqChannel(device="M5300AWG",
@@ -56,24 +77,23 @@ def create():
                                         path="",
                                         mixer=None,
                                         lo=None)
-        virtual_channel_map[qubit.probe] = ro_awg_chan[k]
+        virtual_channel_map[qubit.probe] = ro_awg_chan[idx]
         channels[qubit.acquisition] = AcquisitionChannel(device="M5200Digitizer",
                                                         path="",
                                                         probe=qubit.probe,
                                                         twpa_pump=None)
-        virtual_channel_map[qubit.acquisition] = ro_dig_chan[k]    
-        k += 1
+        virtual_channel_map[qubit.acquisition] = ro_dig_chan[idx]    
 
     # Manual mapping, to be removed when full chassis is online
-    for qubit_idx, chan_idx in zip([3, 7, 13], [4, 5, 7]):
+    for qubit_idx, qcs_channel in zip(fastflux_qubits, qb_flux_chan):
         qubit = qubits[qubit_idx]
         channels[qubit.flux] = DcChannel(device="M5301AWG", path="")
-        virtual_channel_map[qubit.flux] = fastflux_chan[chan_idx]
+        virtual_channel_map[qubit.flux] = qcs_channel
 
-    for chan_idx, (qb1, qb2) in connectivity.items():
+    for (qb1, qb2), qcs_channel in zip(connectivity, tc_flux_chan):
         chan_name = f"TC {qb1}-{qb2}/flux"
         channels[chan_name] = DcChannel(device="M5301AWG", path="")
-        virtual_channel_map[chan_name] = fastflux_chan[chan_idx]
+        virtual_channel_map[chan_name] = qcs_channel
 
     controller = KeysightQCS(
         address=ip_addr,

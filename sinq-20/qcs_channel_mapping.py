@@ -72,13 +72,13 @@ fastflux_semiprobe_qcs_address_mapping: dict[FridgePort, AddressId] = {
     27: (2, 11, 3),
     43: (2, 11, 4),
 
-    20: (2, 10, 1),
-    24: (2, 10, 2),
-    28: (2, 10, 3),
-    32: (2, 10, 4),
-    36: (2, 9, 2),
-    40: (2, 9, 3),
-    44: (2, 9, 1)
+    20: (2, 9, 1),
+    24: (2, 9, 2),
+    28: (2, 9, 3),
+    32: (2, 9, 4),
+    36: (2, 8, 2),
+    40: (2, 8, 3),
+    44: (2, 8, 1)
 }
 
 # Maps the qubit fast-flux channels to the fast-flux Leiden semiprobe ports

@@ -14,16 +14,17 @@ AddressId = tuple[int, int, int]
 FridgePort = int
 
 # Maps the qubits to their respective AWG/digitizer channels for readout
+# Qubits are 1-indexed to match the datasheet
 qubit_readout_line_mapping: dict[QubitId, ChannelId] = {
-    1: 1,
-    2: 1,
-    3: 2,
-    4: 2,
-    5: 1,
-    6: 1,
-    7: 1,
-    8: 3,
-    9: 2,
+    1:  1,
+    2:  1,
+    3:  2,
+    4:  2,
+    5:  1,
+    6:  1,
+    7:  1,
+    8:  3,
+    9:  2,
     10: 2,
     11: 2,
     12: 1,
@@ -37,7 +38,7 @@ qubit_readout_line_mapping: dict[QubitId, ChannelId] = {
     20: 2
 }
 
-# Maps the fast-flux semiprobe ports of the Leiden to the second QCS chassis slots and ports
+# This maps the qubit / tunable coupler fastflux ports of the fridge to the corresponding QCS address
 fastflux_semiprobe_qcs_address_mapping: dict[FridgePort, AddressId] = {
     10: (2, 18, 1),
     5:  (2, 18, 2),
@@ -78,10 +79,10 @@ fastflux_semiprobe_qcs_address_mapping: dict[FridgePort, AddressId] = {
     32: (2, 9, 4),
     36: (2, 8, 2),
     40: (2, 8, 3),
-    44: (2, 8, 1)
+    44: (2, 8, 4)
 }
 
-# Maps the qubit fast-flux channels to the fast-flux Leiden semiprobe ports
+# This maps the qubit flux channels to the fridge fastflux ports
 qubit_fastflux_semiprobe_mapping: dict[QubitId, FridgePort] = {
     2:  1,
     4:  24,
@@ -94,24 +95,25 @@ qubit_fastflux_semiprobe_mapping: dict[QubitId, FridgePort] = {
     19: 32
 }
 
-# Maps the tunable coupler fast-flux channels to the fast-flux Leiden semiprobe ports
+# This maps the tunable coupler flux channels to the fridge fastflux ports
+# This is 1-indexed as well to match the datasheet
 tc_fastflux_semiprobe_mapping: dict[str, FridgePort] = {
-    'TC1-2': 13,
-    'TC1-4': 17, 
-    'TC2-5': 3, 
-    'TC3-4': 40, 
-    'TC3-8': 16, 
-    'TC4-5': 22, 
-    'TC4-9': 26, 
-    'TC5-6': 21, 
-    'TC5-10': 43, 
-    'TC6-7': 39, 
-    'TC6-11': 12, 
-    'TC7-12': 20, 
-    'TC8-9': 15, 
-    'TC8-13': 14, 
-    'TC9-10': 29, 
-    'TC9-14': 28, 
+    'TC1-2':   13,
+    'TC1-4':   17, 
+    'TC2-5':   3, 
+    'TC3-4':   40, 
+    'TC3-8':   16, 
+    'TC4-5':   22, 
+    'TC4-9':   26, 
+    'TC5-6':   21, 
+    'TC5-10':  43, 
+    'TC6-7':   39, 
+    'TC6-11':  12, 
+    'TC7-12':  20, 
+    'TC8-9':   15, 
+    'TC8-13':  14, 
+    'TC9-10':  29, 
+    'TC9-14':  28, 
     'TC10-11': 23, 
     'TC10-15': 37, 
     'TC11-12': 42, 
@@ -129,6 +131,7 @@ tc_fastflux_semiprobe_mapping: dict[str, FridgePort] = {
 }
 
 # XY slots are pre-ordered for QB1-QB20
+# e.g. Slot 6 Channel 1 connects to QB1 and Slot 15 Channel 4 connects to QB20
 xy_slot = [6, 8, 11, 13, 15]
 
 readout_awg_slot = 4
@@ -159,9 +162,10 @@ channel_mapper.add_channel_mapping(tc_flux_awgs, tc_fastflux_address, qcs.Instru
 channel_mapper.add_downconverters(dig_address, dnc_address)
 
 # order of arguments has changed
+# Note that readout downconverter shares common LO across its channels
 channel_mapper.set_lo_frequencies([(1, readout_awg_slot, chan) for chan in range(1, 4)]
                                   + [(1, readout_downconverter_slot, chan) for chan in range(1, 4)],
-                                  4.9e9)
+                                  4.93e9)
 channel_mapper.set_lo_frequencies(xy_awg_address, 4.2e9)
 
 # set the digitizer range

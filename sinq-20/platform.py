@@ -14,7 +14,7 @@ FOLDER = pathlib.Path(__file__).parent
 NUM_QUBITS = 20
 NAME = "sinq-20"
 
-fastflux_qubits = [2, 4, 6, 8, 10, 12, 14, 16, 19]
+fastflux_qubits = [1, 3, 5, 7, 9, 11, 13, 15, 18]
 
 connectivity = [
     (0, 1),

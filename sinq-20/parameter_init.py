@@ -11,28 +11,28 @@ ConfigKinds.extend([QcsAcquisitionConfig])
 ROOT = pathlib.Path(__file__).parent
 
 readout_frequency_maps = {
-    0: 4.9693e9,
+    0: 4.983e9,
     1: 5.1058e9,
     4: 5.272e9,
     5: 5.41e9,
     6: 5.539e9,
     16: 5.723e9,
-    11: 5.842e9,
+    11: 5.8355e9,
 
     2: 4.974e9,
     3: 5.103e9,
-    8: 5.2645e9,
+    8: 5.2655e9,
     9: 5.415e9,
-    10: 5.498e9,
-    19: 5.721e9,
+    10: 5.5589e9,
+    19: 5.76275e9,
     15: 5.849e9,
 
-    7: 4.9925e9,
-    12: 5.1696e9,
-    13: 5.322e9,
+    7: 4.996e9,
+    12: 5.1715e9,
+    13: 5.330e9,
     17: 5.5315e9,
     14: 5.685e9,
-    18: 5.9155e9
+    18: 5.905e9
 }
 
 
@@ -45,12 +45,12 @@ for qubit_id in range(20):
     config[f"{qubit_id}/flux"] = DcConfig(offset=0)
     natives[qubit_id] = SingleQubitNatives(
         RX=Native([
-            (f"{qubit_id}/drive", Pulse(duration=50, amplitude=0.2, envelope=Drag(rel_sigma=2, beta=0)))
+            (f"{qubit_id}/drive", Pulse(duration=50, amplitude=0.5, envelope=Drag(rel_sigma=2, beta=0)))
         ]),
         MZ=Native([
             (f"{qubit_id}/acquisition", Readout(
                 acquisition=Acquisition(duration=2000),
-                probe=Pulse(duration=2000, amplitude=0.2, envelope=Rectangular())))
+                probe=Pulse(duration=2000, amplitude=0.1, envelope=Rectangular())))
         ])
     )
 config["qcs/bounds"] = {

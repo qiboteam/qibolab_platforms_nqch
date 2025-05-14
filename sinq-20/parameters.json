@@ -6,11 +6,11 @@
     "configs": {
         "0/drive": {
             "kind": "iq",
-            "frequency": 4314737200.672901
+            "frequency": 4312557867.264868
         },
         "0/probe": {
             "kind": "iq",
-            "frequency": 4968500000.0
+            "frequency": 4968900000.0
         },
         "0/acquisition": {
             "kind": "qcs-acquisition",
@@ -19,7 +19,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": null
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoO/U2WS2BvPwi8LsHbX2c/lmPynHppXD8731ThxCg0vw=="
         },
         "0/flux": {
             "kind": "dc",
@@ -27,11 +27,11 @@
         },
         "1/drive": {
             "kind": "iq",
-            "frequency": 4609319690.993716
+            "frequency": 4608790816.994942
         },
         "1/probe": {
             "kind": "iq",
-            "frequency": 5.1173E9
+            "frequency": 5104300000.0
         },
         "1/acquisition": {
             "kind": "qcs-acquisition",
@@ -40,7 +40,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": null
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIArsWl6izy4Vvyof1TG4EjE/Ye43j+FNHb9s0x0GkxZePw=="
         },
         "1/flux": {
             "kind": "dc",
@@ -48,11 +48,11 @@
         },
         "2/drive": {
             "kind": "iq",
-            "frequency": 4331413043.288242
+            "frequency": 4330703936.107579
         },
         "2/probe": {
             "kind": "iq",
-            "frequency": 4972500000.0
+            "frequency": 4972100000.0
         },
         "2/acquisition": {
             "kind": "qcs-acquisition",
@@ -69,11 +69,11 @@
         },
         "3/drive": {
             "kind": "iq",
-            "frequency": 4580372965.241754
+            "frequency": 4585335603.955567
         },
         "3/probe": {
             "kind": "iq",
-            "frequency": 5104500000.0
+            "frequency": 5102900000.0
         },
         "3/acquisition": {
             "kind": "qcs-acquisition",
@@ -90,11 +90,11 @@
         },
         "4/drive": {
             "kind": "iq",
-            "frequency": 4335829585.796752
+            "frequency": 4336360180.807397
         },
         "4/probe": {
             "kind": "iq",
-            "frequency": 5272500000.0
+            "frequency": 5262500000.0
         },
         "4/acquisition": {
             "kind": "qcs-acquisition",
@@ -111,11 +111,11 @@
         },
         "5/drive": {
             "kind": "iq",
-            "frequency": 4639751081.3543215
+            "frequency": 4644494304.035763
         },
         "5/probe": {
             "kind": "iq",
-            "frequency": 5.4235e9
+            "frequency": 5414500000.0
         },
         "5/acquisition": {
             "kind": "qcs-acquisition",
@@ -132,11 +132,11 @@
         },
         "6/drive": {
             "kind": "iq",
-            "frequency": 4393796179.487994
+            "frequency": 4391961652.414757
         },
         "6/probe": {
             "kind": "iq",
-            "frequency": 5.5540819690881e9
+            "frequency": 5554081969.0881
         },
         "6/acquisition": {
             "kind": "qcs-acquisition",
@@ -153,11 +153,11 @@
         },
         "7/drive": {
             "kind": "iq",
-            "frequency": 4582015973.358293
+            "frequency": 4582904132.011721
         },
         "7/probe": {
             "kind": "iq",
-            "frequency": 4988500000.0
+            "frequency": 4981700000.0
         },
         "7/acquisition": {
             "kind": "qcs-acquisition",
@@ -174,11 +174,11 @@
         },
         "8/drive": {
             "kind": "iq",
-            "frequency": 4298981968.919584
+            "frequency": 4297657118.333335
         },
         "8/probe": {
             "kind": "iq",
-            "frequency": 5265500000.0
+            "frequency": 5254500000.0
         },
         "8/acquisition": {
             "kind": "qcs-acquisition",
@@ -195,11 +195,11 @@
         },
         "9/drive": {
             "kind": "iq",
-            "frequency": 4591528789.76889
+            "frequency": 4592556644.6084175
         },
         "9/probe": {
             "kind": "iq",
-            "frequency": 5422500000.0
+            "frequency": 5414100000.0
         },
         "9/acquisition": {
             "kind": "qcs-acquisition",
@@ -216,11 +216,11 @@
         },
         "10/drive": {
             "kind": "iq",
-            "frequency": 4442346008.483518
+            "frequency": 4444824680.361992
         },
         "10/probe": {
             "kind": "iq",
-            "frequency": 5558916642.0
+            "frequency": 5549316642.0
         },
         "10/acquisition": {
             "kind": "qcs-acquisition",
@@ -237,7 +237,7 @@
         },
         "11/drive": {
             "kind": "iq",
-            "frequency": 4509469288.875955
+            "frequency": 4511527913.887611
         },
         "11/probe": {
             "kind": "iq",
@@ -258,11 +258,11 @@
         },
         "12/drive": {
             "kind": "iq",
-            "frequency": 4372600854.638967
+            "frequency": 4369013184.300517
         },
         "12/probe": {
             "kind": "iq",
-            "frequency": 5166000000.0
+            "frequency": 5163200000.0
         },
         "12/acquisition": {
             "kind": "qcs-acquisition",
@@ -279,11 +279,11 @@
         },
         "13/drive": {
             "kind": "iq",
-            "frequency": 4491613657.63909
+            "frequency": 4490178088.046556
         },
         "13/probe": {
             "kind": "iq",
-            "frequency": 5322500000.0
+            "frequency": 5321300000.0
         },
         "13/acquisition": {
             "kind": "qcs-acquisition",
@@ -300,11 +300,11 @@
         },
         "14/drive": {
             "kind": "iq",
-            "frequency": 4375389825.935472
+            "frequency": 4371818783.243712
         },
         "14/probe": {
             "kind": "iq",
-            "frequency": 5695500000.0
+            "frequency": 5689900000.0
         },
         "14/acquisition": {
             "kind": "qcs-acquisition",
@@ -321,11 +321,11 @@
         },
         "15/drive": {
             "kind": "iq",
-            "frequency": 4499721068.215442
+            "frequency": 4499533193.241138
         },
         "15/probe": {
             "kind": "iq",
-            "frequency": 5835000000.0
+            "frequency": 5828600000.0
         },
         "15/acquisition": {
             "kind": "qcs-acquisition",
@@ -342,11 +342,11 @@
         },
         "16/drive": {
             "kind": "iq",
-            "frequency": 4370736387.394927
+            "frequency": 4379442782.471993
         },
         "16/probe": {
             "kind": "iq",
-            "frequency": 5723000000.0
+            "frequency": 5716600000.0
         },
         "16/acquisition": {
             "kind": "qcs-acquisition",
@@ -363,11 +363,11 @@
         },
         "17/drive": {
             "kind": "iq",
-            "frequency": 4312043612.48263
+            "frequency": 4304568388.893422
         },
         "17/probe": {
             "kind": "iq",
-            "frequency": 5532000000.0
+            "frequency": 5525200000.0
         },
         "17/acquisition": {
             "kind": "qcs-acquisition",
@@ -384,11 +384,11 @@
         },
         "18/drive": {
             "kind": "iq",
-            "frequency": 4576538708.546998
+            "frequency": 4568722693.368773
         },
         "18/probe": {
             "kind": "iq",
-            "frequency": 5917000000.0
+            "frequency": 5919400000.0
         },
         "18/acquisition": {
             "kind": "qcs-acquisition",
@@ -405,11 +405,11 @@
         },
         "19/drive": {
             "kind": "iq",
-            "frequency": 4343040126.469978
+            "frequency": 4334413292.5018635
         },
         "19/probe": {
             "kind": "iq",
-            "frequency": 5762750000.0
+            "frequency": 5756750000.0
         },
         "19/acquisition": {
             "kind": "qcs-acquisition",
@@ -439,8 +439,8 @@
                         "0/drive",
                         {
                             "kind": "pulse",
-                            "duration": 78.41795484770232,
-                            "amplitude": 1,
+                            "duration": 77.0,
+                            "amplitude": 1.0,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
@@ -481,8 +481,8 @@
                         "1/drive",
                         {
                             "kind": "pulse",
-                            "duration": 118.28373107339658,
-                            "amplitude": 1,
+                            "duration": 118.0,
+                            "amplitude": 1.0,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
@@ -523,7 +523,7 @@
                         "2/drive",
                         {
                             "kind": "pulse",
-                            "duration": 59.967904312514285,
+                            "duration": 59.0,
                             "amplitude": 0.5,
                             "envelope": {
                                 "kind": "drag",
@@ -565,8 +565,8 @@
                         "3/drive",
                         {
                             "kind": "pulse",
-                            "duration": 101.17201990574564,
-                            "amplitude": 1,
+                            "duration": 104.0,
+                            "amplitude": 1.0,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
@@ -607,8 +607,8 @@
                         "4/drive",
                         {
                             "kind": "pulse",
-                            "duration": 103.61994853927597,
-                            "amplitude": 1,
+                            "duration": 105.0,
+                            "amplitude": 1.0,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
@@ -649,8 +649,8 @@
                         "5/drive",
                         {
                             "kind": "pulse",
-                            "duration": 108.52139173844274,
-                            "amplitude": 1,
+                            "duration": 106.0,
+                            "amplitude": 1.0,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
@@ -691,8 +691,8 @@
                         "6/drive",
                         {
                             "kind": "pulse",
-                            "duration": 68.29655902424949,
-                            "amplitude": 1,
+                            "duration": 67.0,
+                            "amplitude": 1.0,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
@@ -733,7 +733,7 @@
                         "7/drive",
                         {
                             "kind": "pulse",
-                            "duration": 64.78771375069763,
+                            "duration": 136.0,
                             "amplitude": 0.3,
                             "envelope": {
                                 "kind": "drag",
@@ -775,7 +775,7 @@
                         "8/drive",
                         {
                             "kind": "pulse",
-                            "duration": 49.022448132930776,
+                            "duration": 49.0,
                             "amplitude": 0.5,
                             "envelope": {
                                 "kind": "drag",
@@ -817,7 +817,7 @@
                         "9/drive",
                         {
                             "kind": "pulse",
-                            "duration": 64.58432502504168,
+                            "duration": 67.0,
                             "amplitude": 0.8,
                             "envelope": {
                                 "kind": "drag",
@@ -859,8 +859,8 @@
                         "10/drive",
                         {
                             "kind": "pulse",
-                            "duration": 109.00609147675449,
-                            "amplitude": 1,
+                            "duration": 107.0,
+                            "amplitude": 1.0,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
@@ -901,7 +901,7 @@
                         "11/drive",
                         {
                             "kind": "pulse",
-                            "duration": 58.93831395096063,
+                            "duration": 59.0,
                             "amplitude": 0.85,
                             "envelope": {
                                 "kind": "drag",
@@ -943,7 +943,7 @@
                         "12/drive",
                         {
                             "kind": "pulse",
-                            "duration": 56.58137863470914,
+                            "duration": 58.0,
                             "amplitude": 0.5,
                             "envelope": {
                                 "kind": "drag",
@@ -985,7 +985,7 @@
                         "13/drive",
                         {
                             "kind": "pulse",
-                            "duration": 88.42977642619837,
+                            "duration": 89.0,
                             "amplitude": 0.5,
                             "envelope": {
                                 "kind": "drag",
@@ -1027,7 +1027,7 @@
                         "14/drive",
                         {
                             "kind": "pulse",
-                            "duration": 67.35948371106848,
+                            "duration": 66.0,
                             "amplitude": 0.5,
                             "envelope": {
                                 "kind": "drag",
@@ -1069,7 +1069,7 @@
                         "15/drive",
                         {
                             "kind": "pulse",
-                            "duration": 70.16931213724051,
+                            "duration": 71.0,
                             "amplitude": 0.5,
                             "envelope": {
                                 "kind": "drag",
@@ -1111,7 +1111,7 @@
                         "16/drive",
                         {
                             "kind": "pulse",
-                            "duration": 66.0480520603802,
+                            "duration": 63.0,
                             "amplitude": 0.85,
                             "envelope": {
                                 "kind": "drag",
@@ -1153,7 +1153,7 @@
                         "17/drive",
                         {
                             "kind": "pulse",
-                            "duration": 61.41198496920079,
+                            "duration": 57.0,
                             "amplitude": 0.5,
                             "envelope": {
                                 "kind": "drag",
@@ -1195,8 +1195,8 @@
                         "18/drive",
                         {
                             "kind": "pulse",
-                            "duration": 83.52988116319713,
-                            "amplitude": 1,
+                            "duration": 78.0,
+                            "amplitude": 1.0,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
@@ -1237,7 +1237,7 @@
                         "19/drive",
                         {
                             "kind": "pulse",
-                            "duration": 71.3757987953342,
+                            "duration": 74.0,
                             "amplitude": 0.5,
                             "envelope": {
                                 "kind": "drag",

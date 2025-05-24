@@ -429,6 +429,126 @@
             "waveforms": 1.0,
             "readout": 1,
             "instructions": 1
+        },
+        "TC 0-3/flux": {
+            "kind": "dc",
+            "offset": 0.085
+        },
+        "TC 2-3/flux": {
+            "kind": "dc",
+            "offset": 0.138
+        },
+        "TC 2-7/flux": {
+            "kind": "dc",
+            "offset": 0.085
+        },
+        "TC 7-12/flux": {
+            "kind": "dc",
+            "offset": 0.135
+        },
+        "TC 12-13/flux": {
+            "kind": "dc",
+            "offset": 0.055
+        },
+        "TC 13-17/flux": {
+            "kind": "dc",
+            "offset": 0.104
+        },
+        "TC 17-18/flux": {
+            "kind": "dc",
+            "offset": 0.053
+        },
+        "TC 18-19/flux": {
+            "kind": "dc",
+            "offset": 0.106
+        },
+        "TC 15-19/flux": {
+            "kind": "dc",
+            "offset": 0.08
+        },
+        "TC 15-16/flux": {
+            "kind": "dc",
+            "offset": 0.117
+        },
+        "TC 11-16/flux": {
+            "kind": "dc",
+            "offset": 0.069
+        },
+        "TC 6-11/flux": {
+            "kind": "dc",
+            "offset": 0.065
+        },
+        "TC 5-6/flux": {
+            "kind": "dc",
+            "offset": 0.13
+        },
+        "TC 4-5/flux": {
+            "kind": "dc",
+            "offset": 0.158
+        },
+        "TC 1-4/flux": {
+            "kind": "dc",
+            "offset": 0.077
+        },
+        "TC 3-4/flux": {
+            "kind": "dc",
+            "offset": 0.16
+        },
+        "TC 4-9/flux": {
+            "kind": "dc",
+            "offset": 0.085
+        },
+        "TC 0-1/flux": {
+            "kind": "dc",
+            "offset": 0.135
+        },
+        "TC 8-9/flux": {
+            "kind": "dc",
+            "offset": 0.141
+        },
+        "TC 3-8/flux": {
+            "kind": "dc",
+            "offset": 0.076
+        },
+        "TC 7-8/flux": {
+            "kind": "dc",
+            "offset": 0.076
+        },
+        "TC 8-13/flux": {
+            "kind": "dc",
+            "offset": 0.0855
+        },
+        "TC 14-15/flux": {
+            "kind": "dc",
+            "offset": 0.116
+        },
+        "TC 9-14/flux": {
+            "kind": "dc",
+            "offset": 0.09
+        },
+        "TC 13-14/flux": {
+            "kind": "dc",
+            "offset": 0.062
+        },
+        "TC 14-18/flux": {
+            "kind": "dc",
+            "offset": 0.113
+        },
+        "TC 10-11/flux": {
+            "kind": "dc",
+            "offset": 0.15
+        },
+        "TC 5-10/flux": {
+            "kind": "dc",
+            "offset": 0.097
+        },
+        "TC 9-10/flux": {
+            "kind": "dc",
+            "offset": 0.134
+        },
+        "TC 10-15/flux": {
+            "kind": "dc",
+            "offset": 0.077
         }
     },
     "native_gates": {

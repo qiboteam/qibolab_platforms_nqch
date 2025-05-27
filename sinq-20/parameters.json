@@ -1395,6 +1395,49 @@
             }
         },
         "coupler": {},
-        "two_qubit": {}
+        "two_qubit": {
+            "2-3": {
+                "CZ": [
+                    [
+                        "TC 2-3/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50,
+                            "amplitude": -0.019400000000000014,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "3/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50,
+                            "amplitude": 0.1945,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "2/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 0
+                        }
+                    ],
+                    [
+                        "3/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 0
+                        }
+                    ]
+                ]
+            }
+        }
     }
 }

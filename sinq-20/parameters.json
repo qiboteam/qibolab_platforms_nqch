@@ -1403,7 +1403,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50,
-                            "amplitude": -0.019400000000000014,
+                            "amplitude": -0.02009999999999984,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1415,7 +1415,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50,
-                            "amplitude": 0.1945,
+                            "amplitude": 0.2062999999999982,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1426,14 +1426,14 @@
                         "2/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 0
+                            "phase": 1.831280139780985
                         }
                     ],
                     [
                         "3/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 0
+                            "phase": 1.7681325487540545
                         }
                     ]
                 ]

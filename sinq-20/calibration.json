@@ -175,6 +175,710 @@
                 0.0,
                 null
             ]
+        },
+        "4": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "5": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "6": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "7": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "8": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "9": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "10": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "11": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "12": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "13": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "14": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "15": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "16": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "17": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "18": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
+        },
+        "19": {
+            "resonator": {
+                "bare_frequency": 7667554261.0,
+                "dressed_frequency": 7661127696.0,
+                "depletion_time": null
+            },
+            "qubit": {
+                "frequency_01": 6332792190.0,
+                "frequency_12": null,
+                "maximum_frequency": null,
+                "asymmetry": null,
+                "sweetspot": null
+            },
+            "readout": {
+                "fidelity": 0.7770395960669678,
+                "coupling": null,
+                "effective_temperature": null,
+                "ground_state": [
+                    -0.0003456159835994834,
+                    -0.001500950089975063
+                ],
+                "excited_state": [
+                    -0.00021910084123913037,
+                    -0.002847785125688261
+                ],
+                "qudits_frequency": {}
+            },
+            "t1": [
+                28908.0,
+                null
+            ],
+            "t2": [
+                516.0,
+                null
+            ],
+            "t2_spin_echo": [
+                24769.0,
+                null
+            ],
+            "rb_fidelity": [
+                0.0,
+                null
+            ]
         }
     },
     "two_qubits": {},

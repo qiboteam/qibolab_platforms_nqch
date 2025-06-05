@@ -1483,6 +1483,94 @@
                 ],
                 "CNOT": null,
                 "iSWAP": null
+            },
+            "8-13": {
+                "CZ": [
+                    [
+                        "TC 8-13/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": -0.020940000000000222,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "13/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": 0.12,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "8/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 2.304887072482964
+                        }
+                    ],
+                    [
+                        "13/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 4.009872030210087
+                        }
+                    ]
+                ],
+                "CNOT": null,
+                "iSWAP": null
+            },
+            "13-17": {
+                "CZ": [
+                    [
+                        "TC 13-17/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": -0.021520000000000955,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "13/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": 0.08370000000000068,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "13/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 2.9995105737791996
+                        }
+                    ],
+                    [
+                        "17/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 1.9260015263213808
+                        }
+                    ]
+                ],
+                "CNOT": null,
+                "iSWAP": null
             }
         }
     }

@@ -103,7 +103,7 @@ def create():
         qcs_channel_map=channel_map,
         virtual_channel_map=virtual_channel_map,
         offset_channels=offset_channels,
-        offset_holdtime=20e3
+        offset_holdtime=60e3
     )
     instruments = {
         "qcs": controller

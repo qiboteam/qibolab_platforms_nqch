@@ -90,7 +90,7 @@ def create():
         channels[qubit.flux] = DcChannel(device="M5301AWG", path="")
         virtual_channel_map[qubit.flux] = qcs_channel
 
-    offset_channels = []
+    offset_channels = ["1/flux", "3/flux", "5/flux", "7/flux", "9/flux", "11/flux", "18/flux"]
     for (qb1, qb2), qcs_channel in zip(connectivity, tc_flux_chan):
         chan_name = f"TC {qb1}-{qb2}/flux"
         channels[chan_name] = DcChannel(device="M5301AWG", path="")
@@ -103,7 +103,7 @@ def create():
         qcs_channel_map=channel_map,
         virtual_channel_map=virtual_channel_map,
         offset_channels=offset_channels,
-        offset_holdtime=20e3
+        offset_holdtime=60e3
     )
     instruments = {
         "qcs": controller

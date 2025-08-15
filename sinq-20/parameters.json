@@ -1696,190 +1696,28 @@
         },
         "coupler": {},
         "two_qubit": {
-            "4-9": {
-                "CZ": [
-                    [
-                        "9/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.010400000000000964,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "TC 4-9/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": -0.02029999999999947,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "4/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 2.231430019799574
-                        }
-                    ],
-                    [
-                        "9/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 4.704644263348184
-                        }
-                    ]
-                ],
-                "CNOT": null,
-                "iSWAP": null
-            },
-            "1-4": {
-                "CZ": [
-                    [
-                        "1/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.007699999999998819,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "TC 1-4/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": -0.03661999999999957,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "4/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 2.350090110438087
-                        }
-                    ],
-                    [
-                        "1/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 5.393497402780443
-                        }
-                    ]
-                ],
-                "CNOT": null,
-                "iSWAP": null
-            },
-            "3-8": {
-                "CZ": [
-                    [
-                        "3/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.04399999999999901,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "TC 3-8/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": -0.02184000000000009,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "8/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 2.4086140265709006
-                        }
-                    ],
-                    [
-                        "3/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 0.1578689775673263
-                        }
-                    ]
-                ],
-                "CNOT": null,
-                "iSWAP": null
-            },
-            "3-4": {
-                "CZ": [
-                    [
-                        "3/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.00759999999999883,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "TC 3-4/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": -0.03623999999999945,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "4/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 2.2954339004432374
-                        }
-                    ],
-                    [
-                        "3/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 5.474697661749224
-                        }
-                    ]
-                ],
-                "CNOT": null,
-                "iSWAP": null
-            },
             "0-3": {
                 "CZ": [
                     [
                         "3/flux",
                         {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "TC 0-3/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "3/flux",
+                        {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.03159999999999916,
+                            "amplitude": 0.03149999999999917,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1891,7 +1729,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.023940000000000086,
+                            "amplitude": -0.023880000000000165,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1902,14 +1740,28 @@
                         "0/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.1973370380598523
+                            "phase": 2.247775752626906
                         }
                     ],
                     [
                         "3/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 4.3965760630188395
+                            "phase": 4.606606027593541
+                        }
+                    ],
+                    [
+                        "0/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ],
+                    [
+                        "3/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
                         }
                     ]
                 ],
@@ -1921,9 +1773,23 @@
                     [
                         "1/flux",
                         {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "TC 0-1/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "1/flux",
+                        {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.026299999999999296,
+                            "amplitude": 0.02639999999999873,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1935,7 +1801,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.0413399999999995,
+                            "amplitude": -0.04145999999999832,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1946,28 +1812,56 @@
                         "0/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.3400898125950698
+                            "phase": 2.421915676067687
                         }
                     ],
                     [
                         "1/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 4.912482842255963
+                            "phase": 5.250900552838925
+                        }
+                    ],
+                    [
+                        "0/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ],
+                    [
+                        "1/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
                         }
                     ]
                 ],
                 "CNOT": null,
                 "iSWAP": null
             },
-            "4-5": {
+            "3-4": {
                 "CZ": [
                     [
-                        "5/flux",
+                        "3/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "TC 3-4/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "3/flux",
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.009449999999999986,
+                            "amplitude": 0.008899999999998687,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1975,11 +1869,11 @@
                         }
                     ],
                     [
-                        "TC 4-5/flux",
+                        "TC 3-4/flux",
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.043519999999999545,
+                            "amplitude": -0.03661999999999896,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1990,14 +1884,28 @@
                         "4/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.417070326094841
+                            "phase": 2.4587266882408896
                         }
                     ],
                     [
-                        "5/drive",
+                        "3/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 5.148293930913149
+                            "phase": 5.14073320789685
+                        }
+                    ],
+                    [
+                        "4/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ],
+                    [
+                        "3/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
                         }
                     ]
                 ],
@@ -2009,9 +1917,23 @@
                     [
                         "3/flux",
                         {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "TC 2-3/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "3/flux",
+                        {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.013699999999998491,
+                            "amplitude": 0.014099999999998447,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2023,7 +1945,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.03399999999999938,
+                            "amplitude": -0.034019999999999384,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2034,14 +1956,172 @@
                         "2/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.2653770878500086
+                            "phase": 2.2986225528292494
                         }
                     ],
                     [
                         "3/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 3.696810924715598
+                            "phase": 3.681506858248866
+                        }
+                    ],
+                    [
+                        "2/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ],
+                    [
+                        "3/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ]
+                ],
+                "CNOT": null,
+                "iSWAP": null
+            },
+            "1-4": {
+                "CZ": [
+                    [
+                        "1/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "TC 1-4/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "1/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": 0.006099999999998773,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "TC 1-4/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": 0.048199999999998216,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "4/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 2.524342448208492
+                        }
+                    ],
+                    [
+                        "1/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 5.914477770057602
+                        }
+                    ],
+                    [
+                        "4/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ],
+                    [
+                        "1/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ]
+                ],
+                "CNOT": null,
+                "iSWAP": null
+            },
+            "4-5": {
+                "CZ": [
+                    [
+                        "5/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "TC 4-5/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "5/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": 0.009700000000000458,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "TC 4-5/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": -0.043419999999998904,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "4/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 2.462213529177623
+                        }
+                    ],
+                    [
+                        "5/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 5.100287603870233
+                        }
+                    ],
+                    [
+                        "4/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ],
+                    [
+                        "5/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
                         }
                     ]
                 ],
@@ -2053,9 +2133,23 @@
                     [
                         "5/flux",
                         {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "TC 5-6/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "5/flux",
+                        {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.06130000000000149,
+                            "amplitude": 0.061100000000001514,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2067,7 +2161,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.035819999999999325,
+                            "amplitude": -0.044439999999999216,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2078,14 +2172,172 @@
                         "6/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.2542671420091773
+                            "phase": 2.455974397914105
                         }
                     ],
                     [
                         "5/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 4.014989854244016
+                            "phase": 4.058628430197516
+                        }
+                    ],
+                    [
+                        "6/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ],
+                    [
+                        "5/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ]
+                ],
+                "CNOT": null,
+                "iSWAP": null
+            },
+            "4-9": {
+                "CZ": [
+                    [
+                        "9/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "TC 4-9/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "9/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": -0.01089999999999891,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "TC 4-9/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": -0.019859999999999642,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "4/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 2.2350757564874204
+                        }
+                    ],
+                    [
+                        "9/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 4.250407222204981
+                        }
+                    ],
+                    [
+                        "4/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ],
+                    [
+                        "9/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ]
+                ],
+                "CNOT": null,
+                "iSWAP": null
+            },
+            "3-8": {
+                "CZ": [
+                    [
+                        "3/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "TC 3-8/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "3/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": 0.044099999999999,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "TC 3-8/flux",
+                        {
+                            "kind": "pulse",
+                            "duration": 50.0,
+                            "amplitude": -0.021620000000000097,
+                            "envelope": {
+                                "kind": "rectangular"
+                            },
+                            "relative_phase": 0.0
+                        }
+                    ],
+                    [
+                        "8/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 2.504440650313832
+                        }
+                    ],
+                    [
+                        "3/drive",
+                        {
+                            "kind": "virtualz",
+                            "phase": 0.1846648082309233
+                        }
+                    ],
+                    [
+                        "8/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
+                        }
+                    ],
+                    [
+                        "3/drive",
+                        {
+                            "kind": "delay",
+                            "duration": 80.0
                         }
                     ]
                 ],
@@ -2097,9 +2349,23 @@
                     [
                         "9/flux",
                         {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "TC 8-9/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "9/flux",
+                        {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.02359999999999904,
+                            "amplitude": -0.04439999999999897,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2111,7 +2377,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.03055999999999956,
+                            "amplitude": -0.02739999999999891,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2122,58 +2388,28 @@
                         "8/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.343767998082788
+                            "phase": 2.2064485923796835
                         }
                     ],
                     [
                         "9/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 5.396416762760316
-                        }
-                    ]
-                ],
-                "CNOT": null,
-                "iSWAP": null
-            },
-            "13-17": {
-                "CZ": [
-                    [
-                        "13/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": -0.024999999999999314,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
+                            "phase": 5.3147423022786775
                         }
                     ],
                     [
-                        "TC 13-17/flux",
+                        "8/drive",
                         {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": -0.03175999999999932,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
+                            "kind": "delay",
+                            "duration": 80.0
                         }
                     ],
                     [
-                        "17/drive",
+                        "9/drive",
                         {
-                            "kind": "virtualz",
-                            "phase": 2.303203228778473
-                        }
-                    ],
-                    [
-                        "13/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 5.532357550109207
+                            "kind": "delay",
+                            "duration": 80.0
                         }
                     ]
                 ],
@@ -2185,9 +2421,23 @@
                     [
                         "13/flux",
                         {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "TC 8-13/flux",
+                        {
+                            "kind": "delay",
+                            "duration": 15.0
+                        }
+                    ],
+                    [
+                        "13/flux",
+                        {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.00029999999999960614,
+                            "amplitude": -0.0006999999999996176,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2199,7 +2449,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.019439999999999583,
+                            "amplitude": -0.019479999999998984,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2210,190 +2460,28 @@
                         "8/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.154989382051683
+                            "phase": 2.2056831625272437
                         }
                     ],
                     [
                         "13/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 1.59313548
-                        }
-                    ]
-                ],
-                "CNOT": null,
-                "iSWAP": null
-            },
-            "17-18": {
-                "CZ": [
-                    [
-                        "18/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.07300000000000001,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
+                            "phase": 1.6351070427619272
                         }
                     ],
                     [
-                        "TC 17-18/flux",
+                        "8/drive",
                         {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": -0.01866000000000006,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
+                            "kind": "delay",
+                            "duration": 80.0
                         }
                     ],
                     [
-                        "17/drive",
+                        "13/drive",
                         {
-                            "kind": "virtualz",
-                            "phase": 2.2481938676457576
-                        }
-                    ],
-                    [
-                        "18/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 1.2092813899542447
-                        }
-                    ]
-                ],
-                "CNOT": null,
-                "iSWAP": null
-            },
-            "14-18": {
-                "CZ": [
-                    [
-                        "18/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.007499999999998619,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "TC 14-18/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": -0.0338599999999995,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "14/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 2.241031356399645
-                        }
-                    ],
-                    [
-                        "18/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 0.2655554121071661
-                        }
-                    ]
-                ],
-                "CNOT": null,
-                "iSWAP": null
-            },
-            "18-19": {
-                "CZ": [
-                    [
-                        "18/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.05529999999999888,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "TC 18-19/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": -0.030299999999999175,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "19/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 2.308710283218807
-                        }
-                    ],
-                    [
-                        "18/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 0.5346841453120542
-                        }
-                    ]
-                ],
-                "CNOT": null,
-                "iSWAP": null
-            },
-            "15-19": {
-                "CZ": [
-                    [
-                        "15/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": -0.0038000000000000984,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "TC 15-19/flux",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": -0.021300000000000055,
-                            "envelope": {
-                                "kind": "rectangular"
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ],
-                    [
-                        "19/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 2.1932444013301393
-                        }
-                    ],
-                    [
-                        "15/drive",
-                        {
-                            "kind": "virtualz",
-                            "phase": 1.052274815824709
+                            "kind": "delay",
+                            "duration": 80.0
                         }
                     ]
                 ],

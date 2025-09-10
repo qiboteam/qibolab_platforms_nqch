@@ -12,7 +12,7 @@ ConfigKinds.extend([QcsAcquisitionConfig])
 ip_addr = "192.168.0.80"
 FOLDER = pathlib.Path(__file__).parent
 NUM_QUBITS = 20
-NAME = "sinq-20"
+NAME = "sinq20"
 
 fastflux_qubits = [1, 3, 5, 7, 9, 11, 13, 15, 18]
 

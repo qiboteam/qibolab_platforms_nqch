@@ -69,7 +69,7 @@
         },
         "3/drive": {
             "kind": "iq",
-            "frequency": 4506670483.0
+            "frequency": 4487470462.0
         },
         "3/probe": {
             "kind": "iq",
@@ -90,7 +90,7 @@
         },
         "4/drive": {
             "kind": "iq",
-            "frequency": 4336585531.0
+            "frequency": 4322265974.0
         },
         "4/probe": {
             "kind": "iq",
@@ -111,7 +111,7 @@
         },
         "5/drive": {
             "kind": "iq",
-            "frequency": 4489840146.0
+            "frequency": 4514759013.0
         },
         "5/probe": {
             "kind": "iq",
@@ -128,7 +128,7 @@
         },
         "5/flux": {
             "kind": "dc",
-            "offset": -0.24
+            "offset": -0.22
         },
         "6/drive": {
             "kind": "iq",
@@ -237,7 +237,7 @@
         },
         "11/drive": {
             "kind": "iq",
-            "frequency": 4487902920.0
+            "frequency": 4487643478.0
         },
         "11/probe": {
             "kind": "iq",
@@ -258,7 +258,7 @@
         },
         "12/drive": {
             "kind": "iq",
-            "frequency": 4373575712.0
+            "frequency": 4363759269.0
         },
         "12/probe": {
             "kind": "iq",
@@ -279,7 +279,7 @@
         },
         "13/drive": {
             "kind": "iq",
-            "frequency": 4462442592.0
+            "frequency": 4462177949.0
         },
         "13/probe": {
             "kind": "iq",
@@ -500,7 +500,7 @@
         },
         "TC 0-1/flux": {
             "kind": "dc",
-            "offset": 0.137
+            "offset": 0.1307
         },
         "TC 8-9/flux": {
             "kind": "dc",
@@ -560,11 +560,11 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.7810699112639768,
+                            "amplitude": 0.7821537829352024,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.01999999999999985
+                                "beta": -0.024999999999999883
                             },
                             "relative_phase": 0.0
                         }
@@ -576,11 +576,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.7808900952566773,
+                            "amplitude": 0.7669039075179265,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.0255955570129341
+                                "beta": -0.02563448484468319
                             },
                             "relative_phase": 0.0
                         }
@@ -617,11 +617,11 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.7671535446031084,
+                            "amplitude": 0.9298312557574169,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": 0.0350000000000002
+                                "beta": 0.005000000000000143
                             },
                             "relative_phase": 0.0
                         }
@@ -633,11 +633,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.7514667495886327,
+                            "amplitude": 0.9144043700281713,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": 0.04952577939046112
+                                "beta": 0.0014466126991610714
                             },
                             "relative_phase": 0.0
                         }
@@ -731,11 +731,11 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.9905376923151056,
+                            "amplitude": 0.9469998829638241,
                             "envelope": {
                                 "kind": "drag",
-                                "rel_sigma": 4.0,
-                                "beta": 0.0350000000000002
+                                "rel_sigma": 3.0,
+                                "beta": 0.030000000000000165
                             },
                             "relative_phase": 0.0
                         }
@@ -747,11 +747,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.9757094469377859,
+                            "amplitude": 0.9317960501512129,
                             "envelope": {
                                 "kind": "drag",
-                                "rel_sigma": 4.0,
-                                "beta": 0.028956648038458224
+                                "rel_sigma": 3.0,
+                                "beta": 0.03293248943855425
                             },
                             "relative_phase": 0.0
                         }
@@ -787,12 +787,12 @@
                         "4/drive",
                         {
                             "kind": "pulse",
-                            "duration": 130.0,
-                            "amplitude": 0.8069025239198335,
+                            "duration": 100.0,
+                            "amplitude": 0.9338706040788739,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.02999999999999986
+                                "beta": -0.059999999999999915
                             },
                             "relative_phase": 0.0
                         }
@@ -803,12 +803,12 @@
                         "4/drive",
                         {
                             "kind": "pulse",
-                            "duration": 65.0,
-                            "amplitude": 0.8121031347019622,
+                            "duration": 50.0,
+                            "amplitude": 0.9185254023555175,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.04106559833776302
+                                "beta": -0.09161247995462399
                             },
                             "relative_phase": 0.0
                         }
@@ -845,11 +845,11 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.925107099661199,
+                            "amplitude": 0.7886763908434372,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": 0.04698198275571617
+                                "beta": -0.02283694105007426
                             },
                             "relative_phase": 0.0
                         }
@@ -861,11 +861,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.9093945367831908,
+                            "amplitude": 0.7737074996918926,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": 0.0400000000000002
+                                "beta": -0.01999999999999988
                             },
                             "relative_phase": 0.0
                         }
@@ -1187,11 +1187,11 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.8205034688965417,
+                            "amplitude": 0.8213554908207505,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 3.0,
-                                "beta": 0.020000000000000184
+                                "beta": 0.020000000000000157
                             },
                             "relative_phase": 0.0
                         }
@@ -1203,11 +1203,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.8054746641507744,
+                            "amplitude": 0.8061200207875764,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 3.0,
-                                "beta": 0.02579103212156541
+                                "beta": 0.018111620106888278
                             },
                             "relative_phase": 0.0
                         }
@@ -1244,11 +1244,11 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.841653609627827,
+                            "amplitude": 0.9389187938513658,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 7.0,
-                                "beta": 0.07000000000000023
+                                "beta": 0.08500000000000016
                             },
                             "relative_phase": 0.0
                         }
@@ -1260,11 +1260,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.8260680182074005,
+                            "amplitude": 0.9238628835671582,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 7.0,
-                                "beta": 0.07745786390811916
+                                "beta": 0.08344368511805905
                             },
                             "relative_phase": 0.0
                         }
@@ -1301,11 +1301,11 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.9091905946251749,
+                            "amplitude": 0.9077613288122421,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 4.0,
-                                "beta": 0.005000000000000171
+                                "beta": -0.00026053355764729886
                             },
                             "relative_phase": 0.0
                         }
@@ -1317,11 +1317,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.8939661622306241,
+                            "amplitude": 0.8896882265056767,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 4.0,
-                                "beta": 0.0005531914110940133
+                                "beta": 0.005000000000000143
                             },
                             "relative_phase": 0.0
                         }

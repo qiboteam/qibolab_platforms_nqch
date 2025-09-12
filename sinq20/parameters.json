@@ -61,7 +61,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAqLnCUSKl5rv2eGv2K1QU+/eemwiXbQN79AtesqSwAqPw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoI7A2LfPZNPxPj9Bbhhmy/XrrFMVcELb/RIrwg4aQ8vw=="
         },
         "2/flux": {
             "kind": "dc",
@@ -90,7 +90,7 @@
         },
         "4/drive": {
             "kind": "iq",
-            "frequency": 4322286593.0
+            "frequency": 4336590954.0
         },
         "4/probe": {
             "kind": "iq",
@@ -187,7 +187,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApe2hPOKO5GPyNbR+OLEkg/lvtnA0tHbD9rvJ9Nvc0zvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApl27DY28ZJvzNzS+HBAUc/F1nRM4zOIz+JCeAedDhsPw=="
         },
         "8/flux": {
             "kind": "dc",
@@ -229,7 +229,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAp7xEDkcPVkP/gL+POu1W2/oBqmXWJgJ799n1c/q+pAvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIArbkf54RDRsP0bOIWu7c2c/ugnutdFbMT8dWs07f5EcPw=="
         },
         "10/flux": {
             "kind": "dc",
@@ -418,7 +418,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIArmYHA5dr9Xv6AqysGkdWy/3SS5arrSHj+uxyCeu3Uxvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApYwSfAa4drP8Vw9XRtFlC/JYYhPVLQJj/HSyhhQSYfPw=="
         },
         "19/flux": {
             "kind": "dc",
@@ -684,22 +684,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "2/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.881805537797524,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 7.0,
-                                "beta": -0.05088783564156854
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -787,12 +772,12 @@
                         "4/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
-                            "amplitude": 0.9363340897988996,
+                            "duration": 130.0,
+                            "amplitude": 0.8076949013091144,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.059999999999999915
+                                "beta": -0.029999999999999888
                             },
                             "relative_phase": 0.0
                         }
@@ -803,12 +788,12 @@
                         "4/drive",
                         {
                             "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.9206240249637839,
+                            "duration": 65.0,
+                            "amplitude": 0.8125224182382194,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.06890051684056304
+                                "beta": -0.040903542397713814
                             },
                             "relative_phase": 0.0
                         }
@@ -1789,7 +1774,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.02639999999999873,
+                            "amplitude": 0.026199999999998752,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1801,7 +1786,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.04145999999999832,
+                            "amplitude": -0.042299999999998575,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1812,14 +1797,14 @@
                         "0/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.421915676067687
+                            "phase": 2.3222101831763906
                         }
                     ],
                     [
                         "1/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 5.250900552838925
+                            "phase": 5.193298868398827
                         }
                     ],
                     [

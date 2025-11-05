@@ -2119,7 +2119,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.061100000000001514,
+                            "amplitude": 0.03930000000000117,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2131,7 +2131,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.044439999999999216,
+                            "amplitude": -0.04405999999999817,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2142,14 +2142,14 @@
                         "6/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.455974397914105
+                            "phase": 2.4476841497508217
                         }
                     ],
                     [
                         "5/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 4.058628430197516
+                            "phase": 2.1479552234034656
                         }
                     ],
                     [
@@ -2551,7 +2551,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.07339999999999852,
+                            "amplitude": 0.07279999999999859,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2563,7 +2563,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.019580000000000097,
+                            "amplitude": -0.015980000000000084,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2574,14 +2574,14 @@
                         "17/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.445415936930543
+                            "phase": 2.189889544970427
                         }
                     ],
                     [
                         "18/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 0.804927660848221
+                            "phase": 0.8186354628062587
                         }
                     ],
                     [

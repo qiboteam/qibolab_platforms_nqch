@@ -2061,23 +2061,9 @@
                     [
                         "5/flux",
                         {
-                            "kind": "delay",
-                            "duration": 15.0
-                        }
-                    ],
-                    [
-                        "TC 4-5/flux",
-                        {
-                            "kind": "delay",
-                            "duration": 15.0
-                        }
-                    ],
-                    [
-                        "5/flux",
-                        {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.009700000000000458,
+                            "amplitude": -0.010199999999998877,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2089,7 +2075,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.043419999999998904,
+                            "amplitude": -0.035379999999998274,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -2100,28 +2086,14 @@
                         "4/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.462213529177623
+                            "phase": 2.23893359809359
                         }
                     ],
                     [
                         "5/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 5.100287603870233
-                        }
-                    ],
-                    [
-                        "4/drive",
-                        {
-                            "kind": "delay",
-                            "duration": 80.0
-                        }
-                    ],
-                    [
-                        "5/drive",
-                        {
-                            "kind": "delay",
-                            "duration": 80.0
+                            "phase": 3.784038651415429
                         }
                     ]
                 ],

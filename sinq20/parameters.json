@@ -6,7 +6,7 @@
     "configs": {
         "0/drive": {
             "kind": "iq",
-            "frequency": 4314989640.0
+            "frequency": 4316329622.0
         },
         "0/probe": {
             "kind": "iq",
@@ -14,12 +14,12 @@
         },
         "0/acquisition": {
             "kind": "qcs-acquisition",
-            "delay": 70.0,
+            "delay": 53.3,
             "smearing": 0.0,
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApE09ZG/GZjv1pEgR6sJnC/6Ct+XOGVXr+N120I5r0zvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoQzMHCLRFxPzHIyldoR1A/WtSggQ6GVz8InOuQsMNQvw=="
         },
         "0/flux": {
             "kind": "dc",
@@ -27,7 +27,7 @@
         },
         "1/drive": {
             "kind": "iq",
-            "frequency": 4552939919.0
+            "frequency": 4557295928.0
         },
         "1/probe": {
             "kind": "iq",
@@ -35,12 +35,12 @@
         },
         "1/acquisition": {
             "kind": "qcs-acquisition",
-            "delay": 70.0,
+            "delay": 53.3,
             "smearing": 0.0,
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAolVt4LS3RiP2lxJI4YVGM/SgxUtpetST83yTn7NOE0Pw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApcT+WnbSE3vx2KDwhgyW0/f2o1xXzTLz+UyNZ7IzJRPw=="
         },
         "1/flux": {
             "kind": "dc",
@@ -48,7 +48,7 @@
         },
         "2/drive": {
             "kind": "iq",
-            "frequency": 4332061846.0
+            "frequency": 4333141978.0
         },
         "2/probe": {
             "kind": "iq",
@@ -69,7 +69,7 @@
         },
         "3/drive": {
             "kind": "iq",
-            "frequency": 4506879522.0
+            "frequency": 4516117027.0
         },
         "3/probe": {
             "kind": "iq",
@@ -90,7 +90,7 @@
         },
         "4/drive": {
             "kind": "iq",
-            "frequency": 4338445662.0
+            "frequency": 4338056882.0
         },
         "4/probe": {
             "kind": "iq",
@@ -111,7 +111,7 @@
         },
         "5/drive": {
             "kind": "iq",
-            "frequency": 4515090489.0
+            "frequency": 4539167591.0
         },
         "5/probe": {
             "kind": "iq",
@@ -132,7 +132,7 @@
         },
         "6/drive": {
             "kind": "iq",
-            "frequency": 4391344261.0
+            "frequency": 4392377691.0
         },
         "6/probe": {
             "kind": "iq",
@@ -153,7 +153,7 @@
         },
         "7/drive": {
             "kind": "iq",
-            "frequency": 4581756491.0
+            "frequency": 4582997939.0
         },
         "7/probe": {
             "kind": "iq",
@@ -174,7 +174,7 @@
         },
         "8/drive": {
             "kind": "iq",
-            "frequency": 4299655323.0
+            "frequency": 4300225444.0
         },
         "8/probe": {
             "kind": "iq",
@@ -195,7 +195,7 @@
         },
         "9/drive": {
             "kind": "iq",
-            "frequency": 4510583654.0
+            "frequency": 4521874408.0
         },
         "9/probe": {
             "kind": "iq",
@@ -216,7 +216,7 @@
         },
         "10/drive": {
             "kind": "iq",
-            "frequency": 4442313126.0
+            "frequency": 4442763226.0
         },
         "10/probe": {
             "kind": "iq",
@@ -237,7 +237,7 @@
         },
         "11/drive": {
             "kind": "iq",
-            "frequency": 4504830481.0
+            "frequency": 4506960028.0
         },
         "11/probe": {
             "kind": "iq",
@@ -258,7 +258,7 @@
         },
         "12/drive": {
             "kind": "iq",
-            "frequency": 4373734493.0
+            "frequency": 4374437096.0
         },
         "12/probe": {
             "kind": "iq",
@@ -279,7 +279,7 @@
         },
         "13/drive": {
             "kind": "iq",
-            "frequency": 4462434517.0
+            "frequency": 4465962320.0
         },
         "13/probe": {
             "kind": "iq",
@@ -300,7 +300,7 @@
         },
         "14/drive": {
             "kind": "iq",
-            "frequency": 4369762024.0
+            "frequency": 4370629175.0
         },
         "14/probe": {
             "kind": "iq",
@@ -321,7 +321,7 @@
         },
         "15/drive": {
             "kind": "iq",
-            "frequency": 4493284633.0
+            "frequency": 4494573641.0
         },
         "15/probe": {
             "kind": "iq",
@@ -342,7 +342,7 @@
         },
         "16/drive": {
             "kind": "iq",
-            "frequency": 4370695902.0
+            "frequency": 4370989086.0
         },
         "16/probe": {
             "kind": "iq",
@@ -350,12 +350,12 @@
         },
         "16/acquisition": {
             "kind": "qcs-acquisition",
-            "delay": 70.0,
+            "delay": 53.3,
             "smearing": 0.0,
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAq/t54zZSx1Px3aij0fpyi/TDctdwQUVz8C26DrU1hwvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApUn7kQ6m10PzGo+lOw20i/AkuJGIuATj9zJCXnYjdxvw=="
         },
         "16/flux": {
             "kind": "dc",
@@ -363,7 +363,7 @@
         },
         "17/drive": {
             "kind": "iq",
-            "frequency": 4312135721.0
+            "frequency": 4312002956.0
         },
         "17/probe": {
             "kind": "iq",
@@ -384,7 +384,7 @@
         },
         "18/drive": {
             "kind": "iq",
-            "frequency": 4535463470.0
+            "frequency": 4542587880.0
         },
         "18/probe": {
             "kind": "iq",
@@ -405,7 +405,7 @@
         },
         "19/drive": {
             "kind": "iq",
-            "frequency": 4329039968.0
+            "frequency": 4329338297.0
         },
         "19/probe": {
             "kind": "iq",
@@ -413,12 +413,12 @@
         },
         "19/acquisition": {
             "kind": "qcs-acquisition",
-            "delay": 70.0,
+            "delay": 53.3,
             "smearing": 0.0,
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApYwSfAa4drP8Vw9XRtFlC/JYYhPVLQJj/HSyhhQSYfPw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApAhXP7g5thv1yfwHTGAGc/ZbuZCxduOr+qccZQFRYkPw=="
         },
         "19/flux": {
             "kind": "dc",
@@ -436,7 +436,7 @@
         },
         "TC 2-3/flux": {
             "kind": "dc",
-            "offset": 0.142
+            "offset": 0.146
         },
         "TC 2-7/flux": {
             "kind": "dc",
@@ -444,7 +444,7 @@
         },
         "TC 7-12/flux": {
             "kind": "dc",
-            "offset": 0.149
+            "offset": 0.153
         },
         "TC 12-13/flux": {
             "kind": "dc",
@@ -452,7 +452,7 @@
         },
         "TC 13-17/flux": {
             "kind": "dc",
-            "offset": 0.108
+            "offset": 0.113
         },
         "TC 17-18/flux": {
             "kind": "dc",
@@ -464,15 +464,15 @@
         },
         "TC 15-19/flux": {
             "kind": "dc",
-            "offset": 0.0846
+            "offset": 0.09
         },
         "TC 15-16/flux": {
             "kind": "dc",
-            "offset": 0.135
+            "offset": 0.14
         },
         "TC 11-16/flux": {
             "kind": "dc",
-            "offset": 0.08
+            "offset": 0.083
         },
         "TC 6-11/flux": {
             "kind": "dc",
@@ -484,19 +484,19 @@
         },
         "TC 4-5/flux": {
             "kind": "dc",
-            "offset": 0.153
+            "offset": 0.155
         },
         "TC 1-4/flux": {
             "kind": "dc",
-            "offset": -0.113
+            "offset": -0.126
         },
         "TC 3-4/flux": {
             "kind": "dc",
-            "offset": 0.154
+            "offset": 0.163
         },
         "TC 4-9/flux": {
             "kind": "dc",
-            "offset": 0.09
+            "offset": 0.096
         },
         "TC 0-1/flux": {
             "kind": "dc",
@@ -504,11 +504,11 @@
         },
         "TC 8-9/flux": {
             "kind": "dc",
-            "offset": 0.117
+            "offset": 0.119
         },
         "TC 3-8/flux": {
             "kind": "dc",
-            "offset": 0.076
+            "offset": 0.085
         },
         "TC 7-8/flux": {
             "kind": "dc",
@@ -516,7 +516,7 @@
         },
         "TC 8-13/flux": {
             "kind": "dc",
-            "offset": 0.0858
+            "offset": 0.091
         },
         "TC 14-15/flux": {
             "kind": "dc",
@@ -524,7 +524,7 @@
         },
         "TC 9-14/flux": {
             "kind": "dc",
-            "offset": 0.088
+            "offset": 0.09
         },
         "TC 13-14/flux": {
             "kind": "dc",
@@ -532,7 +532,7 @@
         },
         "TC 14-18/flux": {
             "kind": "dc",
-            "offset": 0.1355
+            "offset": 0.145
         },
         "TC 10-11/flux": {
             "kind": "dc",
@@ -540,15 +540,15 @@
         },
         "TC 5-10/flux": {
             "kind": "dc",
-            "offset": 0.092
+            "offset": 0.1
         },
         "TC 9-10/flux": {
             "kind": "dc",
-            "offset": 0.137
+            "offset": 0.14
         },
         "TC 10-15/flux": {
             "kind": "dc",
-            "offset": 0.084
+            "offset": 0.088
         }
     },
     "native_gates": {
@@ -560,11 +560,11 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.7802022429170199,
+                            "amplitude": 0.7865047152746124,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.024999999999999883
+                                "beta": 1.3877787807814457e-16
                             },
                             "relative_phase": 0.0
                         }
@@ -576,11 +576,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.7648518547347453,
+                            "amplitude": 0.7727036304324626,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.03010870219621645
+                                "beta": 1.3877787807814457e-16
                             },
                             "relative_phase": 0.0
                         }
@@ -617,11 +617,11 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.7743304043661898,
+                            "amplitude": 0.8164550383218376,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.08214467724982999
+                                "beta": 5.551115123125783e-17
                             },
                             "relative_phase": 0.0
                         }
@@ -633,11 +633,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.7589671190539137,
+                            "amplitude": 0.8060306750122709,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.06499999999999992
+                                "beta": 5.551115123125783e-17
                             },
                             "relative_phase": 0.0
                         }
@@ -674,11 +674,11 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.8948756406585655,
+                            "amplitude": 0.8991718036655415,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 7.0,
-                                "beta": -0.0399999999999999
+                                "beta": 1.3877787807814457e-16
                             },
                             "relative_phase": 0.0
                         }
@@ -690,11 +690,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.8799869768324505,
+                            "amplitude": 0.886135697108643,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 7.0,
-                                "beta": -0.04909447412543025
+                                "beta": 1.3877787807814457e-16
                             },
                             "relative_phase": 0.0
                         }
@@ -731,11 +731,11 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.9867345827528912,
+                            "amplitude": 0.9432626234496039,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 4.0,
-                                "beta": 0.030000000000000165
+                                "beta": 1.3877787807814457e-16
                             },
                             "relative_phase": 0.0
                         }
@@ -747,11 +747,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.9711760827517011,
+                            "amplitude": 0.9297886655103402,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 4.0,
-                                "beta": 0.03171867115906141
+                                "beta": 1.3877787807814457e-16
                             },
                             "relative_phase": 0.0
                         }
@@ -788,11 +788,11 @@
                         {
                             "kind": "pulse",
                             "duration": 130.0,
-                            "amplitude": 0.8122121583100643,
+                            "amplitude": 0.8149270096717569,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.01999999999999988
+                                "beta": 0.005000000000000088
                             },
                             "relative_phase": 0.0
                         }
@@ -804,11 +804,11 @@
                         {
                             "kind": "pulse",
                             "duration": 65.0,
-                            "amplitude": 0.8066186701882794,
+                            "amplitude": 0.8217548205562226,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.022355105544506437
+                                "beta": 0.005000000000000088
                             },
                             "relative_phase": 0.0
                         }
@@ -844,7 +844,7 @@
                         "5/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
+                            "duration": 129.0,
                             "amplitude": 0.7897044671209656,
                             "envelope": {
                                 "kind": "drag",
@@ -855,22 +855,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "5/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.7743595605121802,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 2.0,
-                                "beta": -0.02929351209990344
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -912,22 +897,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "6/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.8645489904121546,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 3.0,
-                                "beta": 0.01083744394817135
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -958,7 +928,7 @@
                         "7/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
+                            "duration": 97.0,
                             "amplitude": 0.8657311088446802,
                             "envelope": {
                                 "kind": "drag",
@@ -969,22 +939,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "7/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.8505527382994454,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 5.0,
-                                "beta": -0.16935102799434543
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1015,7 +970,7 @@
                         "8/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
+                            "duration": 101.0,
                             "amplitude": 0.7330056673827275,
                             "envelope": {
                                 "kind": "drag",
@@ -1026,22 +981,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "8/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.7180169485826311,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 7.0,
-                                "beta": -0.03140596074133208
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1072,7 +1012,7 @@
                         "9/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
+                            "duration": 101.0,
                             "amplitude": 0.888481075322318,
                             "envelope": {
                                 "kind": "drag",
@@ -1083,22 +1023,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "9/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.872696709024158,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 7.0,
-                                "beta": -0.026123872543205227
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1140,22 +1065,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "10/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 65.0,
-                            "amplitude": 0.844427129413201,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 2.0,
-                                "beta": 0.007436469755500779
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1197,22 +1107,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "11/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.8609042570874391,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 4.0,
-                                "beta": 0.004701183783634277
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1243,7 +1138,7 @@
                         "12/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
+                            "duration": 99.0,
                             "amplitude": 0.8423705612239707,
                             "envelope": {
                                 "kind": "drag",
@@ -1254,22 +1149,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "12/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.8268400232321675,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 7.0,
-                                "beta": 0.07254093694323643
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1311,22 +1191,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "13/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.8906413737076273,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 4.0,
-                                "beta": 0.0033488833828622163
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1357,7 +1222,7 @@
                         "14/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
+                            "duration": 97.0,
                             "amplitude": 0.9742672960740423,
                             "envelope": {
                                 "kind": "drag",
@@ -1368,22 +1233,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "14/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.9584437939639533,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 7.0,
-                                "beta": -0.10592102383021945
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1425,22 +1275,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "15/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.8220005069026498,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 5.0,
-                                "beta": 0.13702502121315152
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1471,7 +1306,7 @@
                         "16/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
+                            "duration": 101.0,
                             "amplitude": 0.9475732359497144,
                             "envelope": {
                                 "kind": "drag",
@@ -1482,22 +1317,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "16/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.9270598663084352,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 4.0,
-                                "beta": 0.02169214944242555
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1528,7 +1348,7 @@
                         "17/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
+                            "duration": 95.0,
                             "amplitude": 0.9217578683287415,
                             "envelope": {
                                 "kind": "drag",
@@ -1539,22 +1359,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "17/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.9062032538558856,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 7.0,
-                                "beta": -0.18476628855124713
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1585,7 +1390,7 @@
                         "18/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
+                            "duration": 105.0,
                             "amplitude": 0.9308756902070825,
                             "envelope": {
                                 "kind": "drag",
@@ -1596,22 +1401,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "18/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.9158032034365503,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 4.0,
-                                "beta": -0.17006624224925604
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1642,7 +1432,7 @@
                         "19/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
+                            "duration": 99.0,
                             "amplitude": 0.8387942981587063,
                             "envelope": {
                                 "kind": "drag",
@@ -1653,22 +1443,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "19/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.8231629756348589,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 5.0,
-                                "beta": 0.06940885435509321
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1701,23 +1476,9 @@
                     [
                         "3/flux",
                         {
-                            "kind": "delay",
-                            "duration": 15.0
-                        }
-                    ],
-                    [
-                        "TC 0-3/flux",
-                        {
-                            "kind": "delay",
-                            "duration": 15.0
-                        }
-                    ],
-                    [
-                        "3/flux",
-                        {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.03149999999999917,
+                            "amplitude": 0.04359999999999878,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1729,7 +1490,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.023880000000000165,
+                            "amplitude": -0.020500000000000143,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1740,28 +1501,14 @@
                         "0/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.247775752626906
+                            "phase": 2.035706089023892
                         }
                     ],
                     [
                         "3/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 4.606606027593541
-                        }
-                    ],
-                    [
-                        "0/drive",
-                        {
-                            "kind": "delay",
-                            "duration": 80.0
-                        }
-                    ],
-                    [
-                        "3/drive",
-                        {
-                            "kind": "delay",
-                            "duration": 80.0
+                            "phase": 1.8541454090597664
                         }
                     ]
                 ],
@@ -1773,23 +1520,9 @@
                     [
                         "1/flux",
                         {
-                            "kind": "delay",
-                            "duration": 15.0
-                        }
-                    ],
-                    [
-                        "TC 0-1/flux",
-                        {
-                            "kind": "delay",
-                            "duration": 15.0
-                        }
-                    ],
-                    [
-                        "1/flux",
-                        {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.026199999999998752,
+                            "amplitude": 0.08819999999999856,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1801,7 +1534,7 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": -0.042299999999998575,
+                            "amplitude": -0.035599999999998355,
                             "envelope": {
                                 "kind": "rectangular"
                             },
@@ -1812,28 +1545,14 @@
                         "0/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 2.3222101831763906
+                            "phase": 2.1987406988564073
                         }
                     ],
                     [
                         "1/drive",
                         {
                             "kind": "virtualz",
-                            "phase": 5.193298868398827
-                        }
-                    ],
-                    [
-                        "0/drive",
-                        {
-                            "kind": "delay",
-                            "duration": 80.0
-                        }
-                    ],
-                    [
-                        "1/drive",
-                        {
-                            "kind": "delay",
-                            "duration": 80.0
+                            "phase": 2.1783531025567755
                         }
                     ]
                 ],

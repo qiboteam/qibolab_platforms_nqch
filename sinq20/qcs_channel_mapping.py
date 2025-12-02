@@ -130,6 +130,14 @@ tc_fastflux_semiprobe_mapping: dict[str, FridgePort] = {
     'TC19-20': 18
 }
 
+
+""" tc_ff_delay = {
+    'TC1-2': 5.0E-9
+}
+qb_ff_delay = {
+    2: 7.7E-9
+} """
+
 # XY slots are pre-ordered for QB1-QB20
 # e.g. Slot 6 Channel 1 connects to QB1 and Slot 15 Channel 4 connects to QB20
 xy_slot = [6, 8, 11, 13, 15]
@@ -168,5 +176,18 @@ channel_mapper.set_lo_frequencies([(1, readout_awg_slot, chan) for chan in range
                                   4.93e9)
 channel_mapper.set_lo_frequencies(xy_awg_address, 4.2e9)
 
+# Channel delay
+""" for coupler, delay_value in tc_ff_delay.items():
+    fridge_port = tc_fastflux_semiprobe_mapping[coupler]
+    awg_address = fastflux_semiprobe_qcs_address_mapping[fridge_port]
+    physical_channel = channel_mapper.get_physical_channel(awg_address)
+    physical_channel.settings.delay.value = delay_value
+
+for qubit, delay_value in qb_ff_delay.items():
+    fridge_port = qubit_fastflux_semiprobe_mapping[qubit]
+    awg_address = fastflux_semiprobe_qcs_address_mapping[fridge_port]
+    physical_channel = channel_mapper.get_physical_channel(awg_address)
+    physical_channel.settings.delay.value = delay_value
+ """
 # set the digitizer range
 qcs.save(channel_mapper, FOLDER / "chan_map.qcs")

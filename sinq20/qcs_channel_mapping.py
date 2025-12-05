@@ -174,7 +174,7 @@ channel_mapper.add_downconverters(dig_address, dnc_address)
 channel_mapper.set_lo_frequencies([(1, readout_awg_slot, chan) for chan in range(1, 4)]
                                   + [(1, readout_downconverter_slot, chan) for chan in range(1, 4)],
                                   4.93e9)
-channel_mapper.set_lo_frequencies(xy_awg_address, 4.2e9)
+channel_mapper.set_lo_frequencies(xy_awg_address, 4e9)
 
 # Channel delay
 """ for coupler, delay_value in tc_ff_delay.items():

@@ -1,7 +1,7 @@
 {
     "settings": {
         "nshots": 1000,
-        "relaxation_time": 50000
+        "relaxation_time": 200000
     },
     "configs": {
         "0/drive": {

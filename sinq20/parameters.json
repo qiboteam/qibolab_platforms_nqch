@@ -27,7 +27,7 @@
         },
         "1/drive": {
             "kind": "iq",
-            "frequency": 4484359179.0
+            "frequency": 4484554449.0
         },
         "1/probe": {
             "kind": "iq",
@@ -405,7 +405,7 @@
         },
         "19/drive": {
             "kind": "iq",
-            "frequency": 4318002361.0
+            "frequency": 4319282158.0
         },
         "19/probe": {
             "kind": "iq",
@@ -601,8 +601,8 @@
                         "1/drive",
                         {
                             "kind": "pulse",
-                            "duration": 100.0,
-                            "amplitude": 0.9356314027130149,
+                            "duration": 103.33333333333334,
+                            "amplitude": 0.9212418002094206,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
@@ -612,22 +612,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "1/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 50.0,
-                            "amplitude": 0.922161216013054,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 2.0,
-                                "beta": 0.036423499066536386
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [
@@ -1523,7 +1508,7 @@
                         {
                             "kind": "pulse",
                             "duration": 60.0,
-                            "amplitude": 0.7831148032686269,
+                            "amplitude": 0.7880126340092558,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
@@ -1533,22 +1518,7 @@
                         }
                     ]
                 ],
-                "RX90": [
-                    [
-                        "19/drive",
-                        {
-                            "kind": "pulse",
-                            "duration": 30.0,
-                            "amplitude": 0.7709709994733221,
-                            "envelope": {
-                                "kind": "drag",
-                                "rel_sigma": 2.0,
-                                "beta": 0.07120836994217841
-                            },
-                            "relative_phase": 0.0
-                        }
-                    ]
-                ],
+                "RX90": null,
                 "RX12": null,
                 "MZ": [
                     [

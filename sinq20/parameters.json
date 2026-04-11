@@ -90,7 +90,7 @@
         },
         "4/drive": {
             "kind": "iq",
-            "frequency": 4317830319.0
+            "frequency": 4317896212.0
         },
         "4/probe": {
             "kind": "iq",
@@ -743,7 +743,7 @@
                         {
                             "kind": "pulse",
                             "duration": 100.0,
-                            "amplitude": 0.9347584905874717,
+                            "amplitude": 0.9382661907239919,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,

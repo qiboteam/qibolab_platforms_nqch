@@ -132,7 +132,7 @@
         },
         "6/drive": {
             "kind": "iq",
-            "frequency": 4315750589.0
+            "frequency": 4315714323.0
         },
         "6/probe": {
             "kind": "iq",
@@ -405,7 +405,7 @@
         },
         "19/drive": {
             "kind": "iq",
-            "frequency": 4319282158.0
+            "frequency": 4319990190.0
         },
         "19/probe": {
             "kind": "iq",
@@ -841,8 +841,8 @@
                         "6/drive",
                         {
                             "kind": "pulse",
-                            "duration": 96.66666666666667,
-                            "amplitude": 0.9943346981496586,
+                            "duration": 93.33333333333334,
+                            "amplitude": 1.0309798197952162,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
@@ -1492,8 +1492,8 @@
                         "19/drive",
                         {
                             "kind": "pulse",
-                            "duration": 60.0,
-                            "amplitude": 0.7880126340092558,
+                            "duration": 56.66666666666667,
+                            "amplitude": 0.8386057403520073,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,

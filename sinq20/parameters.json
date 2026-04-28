@@ -10,7 +10,7 @@
         },
         "0/probe": {
             "kind": "iq",
-            "frequency": 4966736363.636363
+            "frequency": 4965002695.294655
         },
         "0/acquisition": {
             "kind": "qcs-acquisition",
@@ -19,7 +19,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAppIcxXmWd6PwghIn19GmU/2H4O26jtZT+y03Vg0t1gvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAqND+yhgftjPy9tEWA0Jms/32cYldcxZT/f//1iDrpSvw=="
         },
         "0/flux": {
             "kind": "dc",
@@ -52,7 +52,7 @@
         },
         "2/probe": {
             "kind": "iq",
-            "frequency": 4968366666.666666
+            "frequency": 4967763651.5912895
         },
         "2/acquisition": {
             "kind": "qcs-acquisition",
@@ -61,7 +61,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApbOjXVawhfP53xpnhh8mo/DyeAjUlZYD8VrlA/zG0nPw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAqY1hCUOOdiP/x1rKwOEXA/g/ip4vHEZT/dJEAJlLwzPw=="
         },
         "2/flux": {
             "kind": "dc",
@@ -73,7 +73,7 @@
         },
         "3/probe": {
             "kind": "iq",
-            "frequency": 5102815151.515152
+            "frequency": 5095202086.188519
         },
         "3/acquisition": {
             "kind": "qcs-acquisition",
@@ -82,7 +82,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAohJxtsrkhgvzL+cqgxXV4/rTrQzMdFJr/mPxzk4YQZvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAp7sHBMBPBwv4UL1Qd72Ve/oqUYUurgY7/fLyxdItJfPw=="
         },
         "3/flux": {
             "kind": "dc",
@@ -94,7 +94,7 @@
         },
         "4/probe": {
             "kind": "iq",
-            "frequency": 5267693939.393939
+            "frequency": 5264151225.826099
         },
         "4/acquisition": {
             "kind": "qcs-acquisition",
@@ -103,7 +103,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAolV7j3QJs3PxDOhGcmymq/TWZU78hQZ7+u0fd51XRivw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo69GGDrqI+P33/W3AG1EW/Xmr1MgtZWr8d8kHYwiRmvw=="
         },
         "4/flux": {
             "kind": "dc",
@@ -136,7 +136,7 @@
         },
         "6/probe": {
             "kind": "iq",
-            "frequency": 5546681969.0881
+            "frequency": 5537410612.304181
         },
         "6/acquisition": {
             "kind": "qcs-acquisition",
@@ -145,7 +145,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIArD8EEtLrBwv3VCHLb0CGc/HudcdBnaNb+WEtpKUuhGvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoVcjTV7MZ/v7j2ZFyV52G/15cN/Fu0dr+D6N1KfLZhPw=="
         },
         "6/flux": {
             "kind": "dc",
@@ -157,7 +157,7 @@
         },
         "7/probe": {
             "kind": "iq",
-            "frequency": 4982786868.686869
+            "frequency": 4986781843.56124
         },
         "7/acquisition": {
             "kind": "qcs-acquisition",
@@ -166,7 +166,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo/11KjyFQkv+xALL6hZya/XF/h23xdRT862LciB7thvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAopfHjv9l1XP2Q7NdsDHRQ/JYYQo/jcJ7+H9ulfEZNavw=="
         },
         "7/flux": {
             "kind": "dc",
@@ -178,7 +178,7 @@
         },
         "8/probe": {
             "kind": "iq",
-            "frequency": 5261288291.074005
+            "frequency": 5261665175.496116
         },
         "8/acquisition": {
             "kind": "qcs-acquisition",
@@ -187,7 +187,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoc+b3UTrVoP7t4RSsG7Fe/3kInYNPEQz+tVqbJCGRtvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIArw9yGRv5RoPz7agze3J1u/kq2zgt8+Pz+kkLvaM45svw=="
         },
         "8/flux": {
             "kind": "dc",
@@ -241,7 +241,7 @@
         },
         "11/probe": {
             "kind": "iq",
-            "frequency": 5837752669.5526705
+            "frequency": 5834209955.984831
         },
         "11/acquisition": {
             "kind": "qcs-acquisition",
@@ -250,7 +250,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAqlb6UfueFMP0C8KdTc/G4/cYjuniL4cj/6J0J0QhxhPw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIArTTfTfjbU9PzVebm8LTxO/CFT79bjGYz8nyQfJFSZoPw=="
         },
         "11/flux": {
             "kind": "dc",
@@ -262,7 +262,7 @@
         },
         "12/probe": {
             "kind": "iq",
-            "frequency": 5164603174.603174
+            "frequency": 5168145888.171014
         },
         "12/acquisition": {
             "kind": "qcs-acquisition",
@@ -271,7 +271,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApxPYGNg/8Rv25FdWGZDDq/tXK+/zIdZL/ttawmZQVXPw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAp7HP4Ynn5hvzU+LNc5SlC/WkTa6jgrUb/dNLTXPARQPw=="
         },
         "12/flux": {
             "kind": "dc",
@@ -283,7 +283,7 @@
         },
         "13/probe": {
             "kind": "iq",
-            "frequency": 5320591816.120388
+            "frequency": 5321119454.311343
         },
         "13/acquisition": {
             "kind": "qcs-acquisition",
@@ -292,7 +292,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAqLLra9nshFP53Rw0Y2/ke/t/uBW5Ogej98w46QFA5Dvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIArLIdiuh8VLPx+FtJMFsh+/0Zr8hzm6ej/2SK3TcchQvw=="
         },
         "13/flux": {
             "kind": "dc",
@@ -304,7 +304,7 @@
         },
         "14/probe": {
             "kind": "iq",
-            "frequency": 5685117357.245929
+            "frequency": 5685494241.668039
         },
         "14/acquisition": {
             "kind": "qcs-acquisition",
@@ -313,7 +313,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAr4TGZOe5VQP1tHXfb5cm8/sNxYaL2cXD+nYD4HuHVTPw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIArXY4suhEw4P67XjgF+JGg/oMr8komQUj+NZ7kJ4tNQPw=="
         },
         "14/flux": {
             "kind": "dc",
@@ -346,7 +346,7 @@
         },
         "16/probe": {
             "kind": "iq",
-            "frequency": 5715234178.519893
+            "frequency": 5716214078.01738
         },
         "16/acquisition": {
             "kind": "qcs-acquisition",
@@ -355,7 +355,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAqbjlBUTP9WP2vLE8OJHTo/9wwAQxV4cz8rKduH73Fvvw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIArH6zQxptZXPzX+m6KWW0M/ZTtVPmp7az+B5XjtG/Fqvw=="
         },
         "16/flux": {
             "kind": "dc",
@@ -367,7 +367,7 @@
         },
         "17/probe": {
             "kind": "iq",
-            "frequency": 5530227705.627706
+            "frequency": 5529247806.1302185
         },
         "17/acquisition": {
             "kind": "qcs-acquisition",
@@ -376,7 +376,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAp/F49SyTRjP8/HzZJT4W+/d/4jynl+V7+MiLhGykZovw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo1PrY7IHpkP71kiT8f2me/IeDQ8d/aVL+265Zl7bRqvw=="
         },
         "17/flux": {
             "kind": "dc",
@@ -388,7 +388,7 @@
         },
         "18/probe": {
             "kind": "iq",
-            "frequency": 5911688311.688313
+            "frequency": 5909050120.733539
         },
         "18/acquisition": {
             "kind": "qcs-acquisition",
@@ -397,7 +397,7 @@
             "threshold": null,
             "iq_angle": null,
             "kernel": null,
-            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAprJFgVoDtvP4JCm43IlVG/4D76DKIKVj9zcenRLc9ovw=="
+            "state_iq_values": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGMxNicsICdmb3J0cmFuX29yZGVyJzogRmFsc2UsICdzaGFwZSc6ICgyLCksIH0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAptVymkxwBqP710GwpI3vw+EIBqjmWiYz8frduW65lovw=="
         },
         "18/flux": {
             "kind": "dc",
@@ -663,12 +663,12 @@
                             "kind": "readout",
                             "acquisition": {
                                 "kind": "acquisition",
-                                "duration": 350.0
+                                "duration": 250.0
                             },
                             "probe": {
                                 "kind": "pulse",
-                                "duration": 350.0,
-                                "amplitude": 0.2,
+                                "duration": 250.0,
+                                "amplitude": 0.25,
                                 "envelope": {
                                     "kind": "rectangular"
                                 },
@@ -1163,7 +1163,7 @@
                             "probe": {
                                 "kind": "pulse",
                                 "duration": 500.0,
-                                "amplitude": 0.14,
+                                "amplitude": 0.1,
                                 "envelope": {
                                     "kind": "rectangular"
                                 },
@@ -1277,7 +1277,7 @@
                             "probe": {
                                 "kind": "pulse",
                                 "duration": 500.0,
-                                "amplitude": 0.15,
+                                "amplitude": 0.16,
                                 "envelope": {
                                     "kind": "rectangular"
                                 },
@@ -1413,11 +1413,11 @@
                             "kind": "readout",
                             "acquisition": {
                                 "kind": "acquisition",
-                                "duration": 400.0
+                                "duration": 300.0
                             },
                             "probe": {
                                 "kind": "pulse",
-                                "duration": 400.0,
+                                "duration": 300.0,
                                 "amplitude": 0.15,
                                 "envelope": {
                                     "kind": "rectangular"

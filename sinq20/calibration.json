@@ -54,9 +54,9 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4484362782.0,
+                "frequency_01": 4484176931.0,
                 "frequency_12": 4318107682.444792,
-                "maximum_frequency": null,
+                "maximum_frequency": 4610000000.0,
                 "asymmetry": null,
                 "sweetspot": null,
                 "flux_coefficients": [
@@ -104,7 +104,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4315914600.0,
+                "frequency_01": 4315879800.0,
                 "frequency_12": 4178656920.0,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -152,7 +152,7 @@
             "qubit": {
                 "frequency_01": 4480161106.0,
                 "frequency_12": 4314974964.180894,
-                "maximum_frequency": null,
+                "maximum_frequency": 4585000000.0,
                 "asymmetry": null,
                 "sweetspot": null,
                 "flux_coefficients": null
@@ -196,7 +196,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4317572521.0,
+                "frequency_01": 4317466859.0,
                 "frequency_12": 4151171894.581149,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -244,7 +244,7 @@
             "qubit": {
                 "frequency_01": 4484626924.0,
                 "frequency_12": 4315797655.19383,
-                "maximum_frequency": null,
+                "maximum_frequency": 4645000000.0,
                 "asymmetry": null,
                 "sweetspot": null,
                 "flux_coefficients": [
@@ -292,7 +292,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4315703167.0,
+                "frequency_01": 4315676300.0,
                 "frequency_12": 4146645950.823685,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -338,9 +338,9 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4579691863.0,
+                "frequency_01": 4579640897.0,
                 "frequency_12": 4426257252.0,
-                "maximum_frequency": null,
+                "maximum_frequency": 4580000000.0,
                 "asymmetry": null,
                 "sweetspot": null,
                 "flux_coefficients": null
@@ -384,7 +384,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4305450669.0,
+                "frequency_01": 4305770898.0,
                 "frequency_12": 4137616576.889239,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -432,7 +432,7 @@
             "qubit": {
                 "frequency_01": 4485091938.0,
                 "frequency_12": 4318093075.211962,
-                "maximum_frequency": null,
+                "maximum_frequency": 4595000000.0,
                 "asymmetry": null,
                 "sweetspot": null,
                 "flux_coefficients": null
@@ -522,9 +522,9 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4486279863.0,
+                "frequency_01": 4486024717.0,
                 "frequency_12": 4318853485.813023,
-                "maximum_frequency": null,
+                "maximum_frequency": 4510000000.0,
                 "asymmetry": null,
                 "sweetspot": null,
                 "flux_coefficients": null
@@ -614,9 +614,9 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4485503204.0,
+                "frequency_01": 4485350950.0,
                 "frequency_12": 4342773243.0,
-                "maximum_frequency": null,
+                "maximum_frequency": 4485000000.0,
                 "asymmetry": null,
                 "sweetspot": null,
                 "flux_coefficients": [
@@ -712,7 +712,7 @@
             "qubit": {
                 "frequency_01": 4485465115.0,
                 "frequency_12": 4318367326.117005,
-                "maximum_frequency": null,
+                "maximum_frequency": 4500000000.0,
                 "asymmetry": null,
                 "sweetspot": null,
                 "flux_coefficients": null
@@ -756,7 +756,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4318497362.0,
+                "frequency_01": 4318493622.0,
                 "frequency_12": 4151267481.243344,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -850,7 +850,7 @@
             "qubit": {
                 "frequency_01": 4486340106.0,
                 "frequency_12": 4319539789.78288,
-                "maximum_frequency": null,
+                "maximum_frequency": 4575000000.0,
                 "asymmetry": null,
                 "sweetspot": null,
                 "flux_coefficients": [
@@ -898,7 +898,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4319449369.0,
+                "frequency_01": 4316406579.0,
                 "frequency_12": 4182743373.0,
                 "maximum_frequency": null,
                 "asymmetry": null,

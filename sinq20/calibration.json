@@ -8,7 +8,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4314860352.0,
+                "frequency_01": 4314869466.0,
                 "frequency_12": 4165494158.0,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -42,8 +42,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9947481620350013,
-                0.00022359294277082633
+                0.9965695195399876,
+                0.002355324033352819
             ]
         },
         "1": {
@@ -54,7 +54,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4481458394.0,
+                "frequency_01": 4485746485.0,
                 "frequency_12": 4318107682.444792,
                 "maximum_frequency": 4610000000.0,
                 "asymmetry": null,
@@ -92,8 +92,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9914452621310335,
-                0.0006621950991260781
+                0.9958099537151144,
+                0.0008093026870394391
             ]
         },
         "2": {
@@ -104,7 +104,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4315330992.0,
+                "frequency_01": 4315330780.0,
                 "frequency_12": 4178656920.0,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -138,8 +138,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9976486247914469,
-                0.00008902702366384721
+                0.9970754850409393,
+                0.00009819434039866421
             ]
         },
         "3": {
@@ -150,7 +150,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4479851581.0,
+                "frequency_01": 4483929278.0,
                 "frequency_12": 4314974964.180894,
                 "maximum_frequency": 4585000000.0,
                 "asymmetry": null,
@@ -184,8 +184,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9979892297948472,
-                0.00007971990005035039
+                0.9954085219034258,
+                0.00018482194635763513
             ]
         },
         "4": {
@@ -196,7 +196,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4316984064.0,
+                "frequency_01": 4316940461.0,
                 "frequency_12": 4151171894.581149,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -230,8 +230,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9909467025035262,
-                0.0005587069619188044
+                0.9939004102500152,
+                0.000694886847359004
             ]
         },
         "5": {
@@ -242,7 +242,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4481551682.0,
+                "frequency_01": 4481515703.0,
                 "frequency_12": 4315797655.19383,
                 "maximum_frequency": 4645000000.0,
                 "asymmetry": null,
@@ -280,8 +280,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9971877419233465,
-                0.0001967833769172571
+                0.9853428013923267,
+                0.0013011546721439706
             ]
         },
         "6": {
@@ -292,7 +292,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4316645840.0,
+                "frequency_01": 4316570391.0,
                 "frequency_12": 4146645950.823685,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -326,8 +326,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9937668774640687,
-                0.0001795317745184724
+                0.991810768784541,
+                0.0018190147123907064
             ]
         },
         "7": {
@@ -338,7 +338,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4571940175.0,
+                "frequency_01": 4571935651.0,
                 "frequency_12": 4426257252.0,
                 "maximum_frequency": 4580000000.0,
                 "asymmetry": null,
@@ -372,8 +372,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9757422072871635,
-                0.004212276873166357
+                0.9955230964246278,
+                0.00045459645074435057
             ]
         },
         "8": {
@@ -384,7 +384,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4306270652.0,
+                "frequency_01": 4306307713.0,
                 "frequency_12": 4137616576.889239,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -418,8 +418,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9983475280382244,
-                0.00006705944240771152
+                0.9961066708206082,
+                0.00018586536962946097
             ]
         },
         "9": {
@@ -430,7 +430,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4486715177.0,
+                "frequency_01": 4486559670.0,
                 "frequency_12": 4318093075.211962,
                 "maximum_frequency": 4595000000.0,
                 "asymmetry": null,
@@ -464,8 +464,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9984633838986646,
-                0.00008315383882390138
+                0.997812934379856,
+                0.00008628283177903155
             ]
         },
         "10": {
@@ -476,7 +476,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4315185878.0,
+                "frequency_01": 4315170057.0,
                 "frequency_12": 4151148788.0100393,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -510,8 +510,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9964934167550379,
-                0.0001204293263511331
+                0.9928914393636918,
+                0.00029739571962516625
             ]
         },
         "11": {
@@ -522,7 +522,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4487373090.0,
+                "frequency_01": 4487569504.0,
                 "frequency_12": 4318853485.813023,
                 "maximum_frequency": 4510000000.0,
                 "asymmetry": null,
@@ -556,8 +556,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9969137763969078,
-                0.00015582192107595381
+                0.995404185250872,
+                0.0007862749345760019
             ]
         },
         "12": {
@@ -568,7 +568,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4312485503.0,
+                "frequency_01": 4312528431.0,
                 "frequency_12": 4223622042.0,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -602,8 +602,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9984885238019632,
-                0.00007262596560922252
+                0.9937595857397092,
+                0.0004233471931244862
             ]
         },
         "13": {
@@ -614,7 +614,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4481694767.0,
+                "frequency_01": 4481631175.0,
                 "frequency_12": 4342773243.0,
                 "maximum_frequency": 4485000000.0,
                 "asymmetry": null,
@@ -652,8 +652,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9977485528317345,
-                0.00009886767637208094
+                0.9943687744798564,
+                0.0006804209107699338
             ]
         },
         "14": {
@@ -664,7 +664,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4303229478.0,
+                "frequency_01": 4334264388.0,
                 "frequency_12": 4150153579.5607677,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -698,8 +698,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9982534724673503,
-                0.00005635717757329591
+                0.9562024195678613,
+                0.004131748893702549
             ]
         },
         "15": {
@@ -710,7 +710,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4483363826.0,
+                "frequency_01": 4483410036.0,
                 "frequency_12": 4318367326.117005,
                 "maximum_frequency": 4500000000.0,
                 "asymmetry": null,
@@ -744,8 +744,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9981517279142957,
-                0.00011839161809698459
+                0.9936843597900832,
+                0.00029713126434450637
             ]
         },
         "16": {
@@ -756,7 +756,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4316468990.0,
+                "frequency_01": 4316629873.0,
                 "frequency_12": 4151267481.243344,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -790,8 +790,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9823063982419218,
-                0.003755967569276516
+                0.9953642288455045,
+                0.00021538442037044385
             ]
         },
         "17": {
@@ -802,7 +802,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4312819219.0,
+                "frequency_01": 4312764235.0,
                 "frequency_12": 4162812916.0,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -836,8 +836,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9560166454996305,
-                0.012066722013904511
+                0.9966033727173051,
+                0.0001377083974092897
             ]
         },
         "18": {
@@ -848,7 +848,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4477465030.0,
+                "frequency_01": 4481763566.0,
                 "frequency_12": 4319539789.78288,
                 "maximum_frequency": 4575000000.0,
                 "asymmetry": null,
@@ -886,8 +886,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9946643308407501,
-                0.00028559026780488364
+                0.9937264906655712,
+                0.00023577578061417752
             ]
         },
         "19": {
@@ -898,7 +898,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4316368555.0,
+                "frequency_01": 4316357973.0,
                 "frequency_12": 4182743373.0,
                 "maximum_frequency": null,
                 "asymmetry": null,
@@ -932,8 +932,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9958078316318332,
-                0.00012170430169774647
+                0.9970432250604548,
+                0.0001085841289173774
             ]
         }
     },

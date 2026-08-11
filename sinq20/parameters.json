@@ -6,7 +6,7 @@
     "configs": {
         "0/drive": {
             "kind": "iq",
-            "frequency": 4314930858.0
+            "frequency": 4314939367.0
         },
         "0/probe": {
             "kind": "iq",
@@ -28,7 +28,7 @@
         },
         "1/drive": {
             "kind": "iq",
-            "frequency": 4487568771.0
+            "frequency": 4487541722.0
         },
         "1/probe": {
             "kind": "iq",
@@ -50,7 +50,7 @@
         },
         "2/drive": {
             "kind": "iq",
-            "frequency": 4313666221.0
+            "frequency": 4313672810.0
         },
         "2/probe": {
             "kind": "iq",
@@ -72,7 +72,7 @@
         },
         "3/drive": {
             "kind": "iq",
-            "frequency": 4487528493.0
+            "frequency": 4486970301.0
         },
         "3/probe": {
             "kind": "iq",
@@ -94,7 +94,7 @@
         },
         "4/drive": {
             "kind": "iq",
-            "frequency": 4315371483.0
+            "frequency": 4315383573.0
         },
         "4/probe": {
             "kind": "iq",
@@ -138,7 +138,7 @@
         },
         "6/drive": {
             "kind": "iq",
-            "frequency": 4317468611.0
+            "frequency": 4317473613.0
         },
         "6/probe": {
             "kind": "iq",
@@ -182,7 +182,7 @@
         },
         "8/drive": {
             "kind": "iq",
-            "frequency": 4300206910.0
+            "frequency": 4300200875.0
         },
         "8/probe": {
             "kind": "iq",
@@ -620,12 +620,12 @@
                         "0/drive",
                         {
                             "kind": "pulse",
-                            "duration": 40.0,
-                            "amplitude": 0.9947367505736558,
+                            "duration": 50.0,
+                            "amplitude": 0.7952046913715209,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.04299299395726513
+                                "beta": -0.03679012416684397
                             },
                             "relative_phase": 0.0,
                             "chirp": null
@@ -682,11 +682,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.9315262608645882,
+                            "amplitude": 0.9401813808730093,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": 0.01574802412846375
+                                "beta": 0.01044837812045649
                             },
                             "relative_phase": 0.0,
                             "chirp": null
@@ -737,7 +737,23 @@
                         }
                     ]
                 ],
-                "RX90": null,
+                "RX90": [
+                    [
+                        "2/drive",
+                        {
+                            "kind": "pulse",
+                            "duration": 40.0,
+                            "amplitude": 0.4701103701678836,
+                            "envelope": {
+                                "kind": "drag",
+                                "rel_sigma": 3.0,
+                                "beta": -0.12688831493380676
+                            },
+                            "relative_phase": 0.0,
+                            "chirp": null
+                        }
+                    ]
+                ],
                 "RX12": null,
                 "MZ": [
                     [
@@ -771,11 +787,11 @@
                         {
                             "kind": "pulse",
                             "duration": 80.0,
-                            "amplitude": 0.8757966554520946,
+                            "amplitude": 0.8852381152317556,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": 0.034909909909910164
+                                "beta": 0.03193693693693722
                             },
                             "relative_phase": 0.0,
                             "chirp": null
@@ -788,11 +804,11 @@
                         {
                             "kind": "pulse",
                             "duration": 40.0,
-                            "amplitude": 0.8743988170788257,
+                            "amplitude": 0.8838299567272033,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": 0.04282864834469144
+                                "beta": -0.0026464880652299514
                             },
                             "relative_phase": 0.0,
                             "chirp": null
@@ -849,11 +865,11 @@
                         {
                             "kind": "pulse",
                             "duration": 60.0,
-                            "amplitude": 0.7493340480690521,
+                            "amplitude": 0.7575689339472561,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.08591367438237267
+                                "beta": -0.08540057070574224
                             },
                             "relative_phase": 0.0,
                             "chirp": null
@@ -910,11 +926,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.9706089693384694,
+                            "amplitude": 0.9936389428891018,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": 0.0342918458676087
+                                "beta": 0.0372777032491406
                             },
                             "relative_phase": 0.0,
                             "chirp": null
@@ -970,12 +986,12 @@
                         "6/drive",
                         {
                             "kind": "pulse",
-                            "duration": 70.0,
-                            "amplitude": 0.6836119540346568,
+                            "duration": 50.0,
+                            "amplitude": 0.9760496214235996,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": -0.03554719796582033
+                                "beta": -0.041023505241768975
                             },
                             "relative_phase": 0.0,
                             "chirp": null
@@ -1032,11 +1048,11 @@
                         {
                             "kind": "pulse",
                             "duration": 20.0,
-                            "amplitude": 0.8084031700796067,
+                            "amplitude": 0.8140680041044163,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": 0.05946734709705436
+                                "beta": 0.06070437700453232
                             },
                             "relative_phase": 0.0,
                             "chirp": null
@@ -1093,11 +1109,11 @@
                         {
                             "kind": "pulse",
                             "duration": 30.0,
-                            "amplitude": 0.5409243948896966,
+                            "amplitude": 0.5424526906670202,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 3.0,
-                                "beta": -0.023903107344009945
+                                "beta": -0.02730052009508212
                             },
                             "relative_phase": 0.0,
                             "chirp": null
@@ -1154,11 +1170,11 @@
                         {
                             "kind": "pulse",
                             "duration": 20.0,
-                            "amplitude": 0.9521433935381226,
+                            "amplitude": 0.953177865233862,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": 0.041451849999689074
+                                "beta": 0.04136104321757803
                             },
                             "relative_phase": 0.0,
                             "chirp": null
@@ -1215,11 +1231,11 @@
                         {
                             "kind": "pulse",
                             "duration": 50.0,
-                            "amplitude": 0.9948950366389777,
+                            "amplitude": 0.9966043530827116,
                             "envelope": {
                                 "kind": "drag",
                                 "rel_sigma": 2.0,
-                                "beta": 0.01617908717655694
+                                "beta": 0.017987429566168115
                             },
                             "relative_phase": 0.0,
                             "chirp": null

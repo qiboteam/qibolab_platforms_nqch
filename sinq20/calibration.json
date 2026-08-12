@@ -242,7 +242,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4483450654.0,
+                "frequency_01": 4483533171.0,
                 "frequency_12": 4315797655.19383,
                 "maximum_frequency": 4645000000.0,
                 "asymmetry": null,
@@ -280,8 +280,8 @@
                 null
             ],
             "rb_fidelity": [
-                0.9970690918776444,
-                0.000218250224821302
+                0.9977294198137986,
+                0.0001238265049617123
             ]
         },
         "6": {
@@ -338,7 +338,7 @@
                 "bare_frequency_amplitude": null
             },
             "qubit": {
-                "frequency_01": 4514030500.0,
+                "frequency_01": 4578198095.0,
                 "frequency_12": 4426257252.0,
                 "maximum_frequency": 4580000000.0,
                 "asymmetry": null,
